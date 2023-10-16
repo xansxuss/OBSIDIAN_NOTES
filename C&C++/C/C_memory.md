@@ -1,0 +1,1 @@
+[[C 語言動態記憶體配置教學：malloc、free 等函數]](https://blog.gtwang.org/programming/c-memory-functions-malloc-free/ "C 語言動態記憶體配置教學：malloc、free 等函數")

@@ -1,0 +1,1 @@
+[行程間通訊(Interprocess Communication)](https://ithelp.ithome.com.tw/articles/10298870)

@@ -1,0 +1,1 @@
+[透過BGP從小型網路到真正的網際網路](https://ithelp.ithome.com.tw/users/20119484/ironman/3438)

@@ -1,0 +1,1 @@
+[平行計算筆記_Parallel Programming in C with MPI and OpenMP](https://ithelp.ithome.com.tw/users/20091785/ironman/942)
