@@ -1,0 +1,1 @@
+[How to convert cv::Mat* to cv::Mat?](https://answers.opencv.org/question/215746/how-to-convert-cvmat-to-cvmat/)

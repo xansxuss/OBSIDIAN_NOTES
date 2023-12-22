@@ -4,27 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4d100f69e8adb345",
+        "id": "720e2a56d30a8a07",
         "type": "tabs",
         "children": [
           {
-            "id": "23511616e6550ad1",
+            "id": "2e3b523c6a36ae41",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "500330a1a96df0f2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C&C++/C++/C++_reference.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C&C++/C++/C++_reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C&C++/C++/C++_reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C&C++/C++/C++_reference.md"
+              }
             }
           }
         ]
@@ -147,10 +146,39 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "500330a1a96df0f2",
+  "active": "2e3b523c6a36ae41",
   "lastOpenFiles": [
-    "OBSIDIAN_NOTES/OBSIDIAN_NOTES/Common Programming Concepts.md",
-    "OBSIDIAN_NOTES/OBSIDIAN_NOTES/yolov4/yolov4_github.md",
+    "().md",
+    "C&C++/C++/C++_reference.md",
+    "software/vscode/一位資深軟體工程師的 VSCode 設定方式＆外掛套件分享.md",
+    "C_reference.md",
+    "opencv/opencv build from source code.md",
+    "software/vscode",
+    "software/軟體開發平台及語言筆記大全(超詳細).md",
+    "AI認證.md",
+    "backend.md",
+    "Common Programming Concepts.md",
+    "git_data/Git與Github.md",
+    "k8s認證.md",
+    "leetcode.md",
+    "ONNX inference.md",
+    "README.md",
+    "OS/interprocess Communication(IPC).md",
+    "OS/OS作業系統.md",
+    "OS/Parallel Programming.md",
+    "OS/Remote Procedure Calls.md",
+    "OS/cmake/cmake install.md",
+    "opencv/How to convert cvMatpointer to cvMat?.md",
+    "C&C++/C++/STL/C++ STL 總結.md",
+    "C&C++/C++/note/在 Linux 下開發 C_C++ 的新手指南.md",
+    "software",
+    "git_data/git add ssh key.md",
+    "android/ndk R18 opencv 2.4.13.6.md",
+    "android/android.bp.md",
+    "android/build pugixml on android.md",
+    "C&C++/C++/note",
+    "android",
+    "AI",
     "OBSIDIAN_NOTES/OBSIDIAN_NOTES/yolov4"
   ]
 }

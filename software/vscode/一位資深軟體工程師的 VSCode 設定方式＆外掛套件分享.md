@@ -1,0 +1,1 @@
+[一位資深軟體工程師的 VSCode 設定方式＆外掛套件分享](https://codelove.tw/@tony/post/vx8mG3)
