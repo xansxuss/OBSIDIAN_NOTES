@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca9487478a0fdcd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C&C++/C++/C++_reference.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C&C++/C++/C++_reference.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C&C++/C++/C++_reference.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,10 +159,13 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "2e3b523c6a36ae41",
+  "active": "ca9487478a0fdcd2",
   "lastOpenFiles": [
-    "().md",
     "C&C++/C++/C++_reference.md",
+    "conflict-files-obsidian-git.md",
+    "Dlib/Dlib install.md",
+    "Dlib",
+    "().md",
     "software/vscode/一位資深軟體工程師的 VSCode 設定方式＆外掛套件分享.md",
     "C_reference.md",
     "opencv/opencv build from source code.md",
@@ -174,8 +190,6 @@
     "software",
     "git_data/git add ssh key.md",
     "android/ndk R18 opencv 2.4.13.6.md",
-    "android/android.bp.md",
-    "android/build pugixml on android.md",
     "C&C++/C++/note",
     "android",
     "AI",
