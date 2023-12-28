@@ -1,16 +1,9 @@
 {
   "commitMessage": "vault backup: {{date}}",
-<<<<<<< HEAD
   "commitDateFormat": "work:YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 5,
-=======
-  "commitDateFormat": "mac-1:YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 5,
-  "autoPushInterval": 0,
-  "autoPullInterval": 0,
->>>>>>> origin/main
   "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,

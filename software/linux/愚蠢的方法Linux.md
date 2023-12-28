@@ -1,0 +1,1 @@
+[愚蠢的方法Linux](https://www.cntofu.com/book/28/index.html)
