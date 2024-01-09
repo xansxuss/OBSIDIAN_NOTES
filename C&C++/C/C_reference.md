@@ -1,0 +1,1 @@
+[如何把 C 語言偽裝成高階語言](https://ithelp.ithome.com.tw/users/20111788/ironman/1729)

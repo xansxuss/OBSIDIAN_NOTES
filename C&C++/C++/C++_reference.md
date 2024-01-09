@@ -10,3 +10,6 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [多型與繼承的關係｜C++](https://tsungsquare.blogspot.com/2021/06/polymorphism.html)
 [static / const成員資料與函式｜C++](https://tsungsquare.blogspot.com/2021/06/static-const.html)
 [夥伴函式與類別、不夠朋友問題｜C++](https://tsungsquare.blogspot.com/2021/06/friend.html)
+[C++ 小知識合集](https://blog.csdn.net/weixin_43653137/category_12281538.html)
+[]()
+

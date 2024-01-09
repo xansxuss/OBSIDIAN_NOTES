@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "720e2a56d30a8a07",
+        "id": "b42dfc016224fb8f",
         "type": "tabs",
         "children": [
           {
-            "id": "2e3b523c6a36ae41",
+            "id": "c5d50060134df437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software/操作系統思維.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e658d0d643e20684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software/linux/愚蠢的方法Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59d3b447203e3ecf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software/linux/Linux 核心揭密.md",
+                "file": "C&C++/C/C_reference.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software/linux/Linux 核心揭密.md",
+                "file": "C&C++/C/C_reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software/linux/Linux 核心揭密.md",
+                "file": "C&C++/C/C_reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software/linux/Linux 核心揭密.md"
+                "file": "C&C++/C/C_reference.md"
               }
             }
           }
@@ -171,43 +146,46 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "c8a4f073f55bfc18",
+  "active": "c5d50060134df437",
   "lastOpenFiles": [
-    "software/linux/愚蠢的方法Linux.md",
+    "CUDA/cuda install.md",
+    "C&C++/C/C_reference.md",
+    "CUDA/cuda_reference.md",
+    "git_data/Git與Github.md",
+    "git_data/git add ssh key.md",
+    "opencv/opencv build from source code.md",
+    "opencv/opencv-python in docker ImportError libGL.so.1 cannot open shared object file No such file or directory.md",
+    "Screenshot from 2023-06-27 10-40-30.png",
+    "Screenshot from 2023-06-27 10-40-06.png",
+    "Common Programming Concepts.md",
+    "conflict-files-obsidian-git.md",
+    "python_note/python_inertools.md",
+    "Dlib/Dlib install.md",
+    "docker/Docker.md",
+    "docker/docker install.md",
+    "C&C++/C++/C++_reference.md",
+    "LLM/GPT4All.md",
+    "tensorflow/Tensorflow.md",
+    "C&C++/cmake/CMake 初探.md",
+    "C&C++/未命名.md",
+    "C&C++/未命名 1.md",
     "software/操作系統思維.md",
+    "C&C++/cmake",
+    "software/linux/愚蠢的方法Linux.md",
     "software/linux",
     "software/雪城大學計算機與網絡安全講座.md",
     "software/linux/Linux 核心揭密.md",
     "software/米斯特白帽培訓講義.md",
-    "LLM/GPT4All.md",
-    "docker/docker install.md",
     "LLM",
-    "C&C++/C++/C++_reference.md",
     "C&C++/C++/C++教學系列.md",
     "C&C++/C++/C++ STL 迭代器(iterator).md",
-    "docker/Docker.md",
-    "CUDA/cuda install.md",
-    "software/軟體開發平台及語言筆記大全(超詳細).md",
-    "software/vscode/一位資深軟體工程師的 VSCode 設定方式＆外掛套件分享.md",
-    "conflict-files-obsidian-git.md",
-    "OBSIDIAN_NOTES/tensorflow/tensorflow install.md",
-    "OBSIDIAN_NOTES/tensorflow/Tensorflow.md",
     "OBSIDIAN_NOTES/tensorflow",
-    "OBSIDIAN_NOTES/tensorRT/tensorRT.md",
     "OBSIDIAN_NOTES/tensorRT",
-    "OBSIDIAN_NOTES/pytorch/pytorch 12.0 install.md",
-    "OBSIDIAN_NOTES/pytorch/Pytorch.md",
     "OBSIDIAN_NOTES/pytorch",
-    "OBSIDIAN_NOTES/python_note/python_inertools.md",
     "OBSIDIAN_NOTES/python_note",
-    "OBSIDIAN_NOTES/opencv/opencv.md",
-    "OBSIDIAN_NOTES/opencv/OpenCV Mat數據類型和圖像矩陣.md",
     "OBSIDIAN_NOTES/opencv",
-    "OBSIDIAN_NOTES/k8s認證.md",
-    "OBSIDIAN_NOTES/img_process/img_process Reference web.md",
     "OBSIDIAN_NOTES/img_process",
     "OBSIDIAN_NOTES/git_data",
-    "OBSIDIAN_NOTES/docker",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-30.png",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-06.png",
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230201142317.png",
@@ -215,8 +193,6 @@
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230201141859.png",
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230110084757.png",
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230110084718.png",
-    "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230110084703.png",
-    "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230110084647.png",
-    "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230110084630.png"
+    "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230110084703.png"
   ]
 }
