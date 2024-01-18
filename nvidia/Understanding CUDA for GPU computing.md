@@ -1,0 +1,1 @@
+1. [Understanding CUDA for GPU computing](https://medium.com/@rakeshrajpurohit/understanding-cuda-for-gpu-computing-330fa792ca1c)

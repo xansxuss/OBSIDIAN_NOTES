@@ -42,3 +42,7 @@ https://medium.com/@scofield44165/ubuntu-20-04%E4%B8%AD%E5%AE%89%E8%A3%9Dnvidia-
 
 /sbin/ldconfig.real: /usr/local/cuda/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8 is not a symbolic link
 https://blog.csdn.net/jy1023408440/article/details/107258942
+
+
+1. [How to install CUDA, cuDNN and TensorFlow on Ubuntu 22.04 (2023)](https://medium.com/@gokul.a.krishnan/how-to-install-cuda-cudnn-and-tensorflow-on-ubuntu-22-04-2023-20fdfdb96907)
+2.  []

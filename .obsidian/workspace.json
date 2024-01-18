@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/APUE.md",
+                "file": "nvidia/Understanding CUDA for GPU computing.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/APUE.md",
+                "file": "nvidia/Understanding CUDA for GPU computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/APUE.md",
+                "file": "nvidia/Understanding CUDA for GPU computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/APUE.md"
+                "file": "nvidia/Understanding CUDA for GPU computing.md"
               }
             }
           }
@@ -161,44 +161,44 @@
   },
   "active": "333207aff6840b18",
   "lastOpenFiles": [
+    "AI_model/Mask-RCNN/Mask-RCNN.md",
+    "nvidia/Understanding CUDA for GPU computing.md",
+    "AI_model/YOLOV8/YOLOV8.md",
+    "AI_model/Mask-RCNN",
+    "AI_model/未命名.md",
+    "AI_model/AI_reference.md",
+    "AI_model/github_pytorch_SSD_reference.md",
+    "AI_model/Object Tracking Object detection + Tracking using ByteTrack.md",
+    "pytorch/Build PyTorch from Source with CUDA 12.2.1 with Ubuntu 22.04.md",
     "pytorch/Pytorch.md",
+    "pytorch/pytorch 12.0 install.md",
+    "nvidia/CUDA/cuda install.md",
+    "nvidia/CUDA/cuda_reference.md",
+    "nvidia/tensorRT/tensorRT.md",
+    "nvidia/jetson/NVIDIA Jetson AGX Orin 完整刷機、安裝 Tensorflow、Pytorch 、OpenCV 教學 (Ubuntu篇)-SDK Manager.md",
+    "OS/OS作業系統.md",
+    "android/ndk R18 opencv 2.4.13.6.md",
+    "AI_model/YOLOV8",
+    "android/CMAKE and NDK build C++ code.md",
+    "android/build pugixml on android.md",
+    "android/android.bp.md",
+    "nvidia/jetson/NVIDIA Jetson Orin Nano 手把手完整安裝教學，Pytorch、Tensorflow、Opencv(cuda版本).md",
     "OS/APUE.md",
+    "nvidia/jetson",
+    "nvidia",
     "OS/CSAPP.md",
     "opencv/opencv build from source code.md",
     "C&C++/C/C_reference.md",
-    "CUDA/cuda install.md",
-    "CUDA/cuda_reference.md",
     "git_data/Git與Github.md",
     "git_data/git add ssh key.md",
-    "opencv/opencv-python in docker ImportError libGL.so.1 cannot open shared object file No such file or directory.md",
     "Screenshot from 2023-06-27 10-40-30.png",
     "Screenshot from 2023-06-27 10-40-06.png",
-    "Common Programming Concepts.md",
-    "conflict-files-obsidian-git.md",
-    "python_note/python_inertools.md",
-    "Dlib/Dlib install.md",
-    "docker/Docker.md",
-    "docker/docker install.md",
-    "C&C++/C++/C++_reference.md",
-    "LLM/GPT4All.md",
-    "tensorflow/Tensorflow.md",
-    "C&C++/cmake/CMake 初探.md",
-    "C&C++/未命名.md",
-    "C&C++/未命名 1.md",
-    "software/操作系統思維.md",
     "C&C++/cmake",
-    "software/linux/愚蠢的方法Linux.md",
     "software/linux",
-    "software/雪城大學計算機與網絡安全講座.md",
-    "software/linux/Linux 核心揭密.md",
     "LLM",
     "OBSIDIAN_NOTES/tensorflow",
     "OBSIDIAN_NOTES/tensorRT",
     "OBSIDIAN_NOTES/pytorch",
-    "OBSIDIAN_NOTES/python_note",
-    "OBSIDIAN_NOTES/opencv",
-    "OBSIDIAN_NOTES/img_process",
-    "OBSIDIAN_NOTES/git_data",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-30.png",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-06.png",
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230201142317.png",

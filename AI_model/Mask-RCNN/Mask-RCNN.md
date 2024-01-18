@@ -1,0 +1,1 @@
+1. [Mask-RCNN vs. Personalized-SAM: Comparing Two Object Segmentation Models](https://medium.com/cord-tech/mask-rcnn-vs-personalized-sam-comparing-two-object-segmentation-models-55398490f193)

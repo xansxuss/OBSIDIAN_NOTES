@@ -1,0 +1,2 @@
+1. [YOLOv8 介紹與手把手訓練自訂義模型](https://medium.com/@EricChou711/yolov8-%E4%BB%8B%E7%B4%B9%E5%92%8C%E6%89%8B%E6%8A%8A%E6%89%8B%E8%A8%93%E7%B7%B4%E8%87%AA%E8%A8%82%E7%BE%A9%E6%A8%A1%E5%9E%8B-752d8d32cb73)
+2.  [Train YOLOv8 on a Custom Object Detection Dataset with Python](https://medium.com/@KaziMushfiq1234/train-yolov8-on-a-custom-dataset-for-object-detection-on-local-machine-using-python-6a402a2968de)
