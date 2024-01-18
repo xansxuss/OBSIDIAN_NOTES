@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b42dfc016224fb8f",
+        "id": "d6d2fd838244b6eb",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d50060134df437",
+            "id": "eb920bbb031598c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C&C++/C/C_reference.md",
+                "file": "OS/CSAPP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "333207aff6840b18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/APUE.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C&C++/C/C_reference.md",
+                "file": "OS/APUE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C&C++/C/C_reference.md",
+                "file": "OS/APUE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C&C++/C/C_reference.md"
+                "file": "OS/APUE.md"
               }
             }
           }
@@ -146,14 +159,17 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "c5d50060134df437",
+  "active": "333207aff6840b18",
   "lastOpenFiles": [
-    "CUDA/cuda install.md",
+    "pytorch/Pytorch.md",
+    "OS/APUE.md",
+    "OS/CSAPP.md",
+    "opencv/opencv build from source code.md",
     "C&C++/C/C_reference.md",
+    "CUDA/cuda install.md",
     "CUDA/cuda_reference.md",
     "git_data/Git與Github.md",
     "git_data/git add ssh key.md",
-    "opencv/opencv build from source code.md",
     "opencv/opencv-python in docker ImportError libGL.so.1 cannot open shared object file No such file or directory.md",
     "Screenshot from 2023-06-27 10-40-30.png",
     "Screenshot from 2023-06-27 10-40-06.png",
@@ -175,10 +191,7 @@
     "software/linux",
     "software/雪城大學計算機與網絡安全講座.md",
     "software/linux/Linux 核心揭密.md",
-    "software/米斯特白帽培訓講義.md",
     "LLM",
-    "C&C++/C++/C++教學系列.md",
-    "C&C++/C++/C++ STL 迭代器(iterator).md",
     "OBSIDIAN_NOTES/tensorflow",
     "OBSIDIAN_NOTES/tensorRT",
     "OBSIDIAN_NOTES/pytorch",

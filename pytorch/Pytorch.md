@@ -7,9 +7,5 @@
 6. Pytorch量化+部署](https://zhuanlan.zhihu.com/p/589411751)
 7. [pytorch煉丹](https://www.zhihu.com/column/c_1512535170720206849)
 7. [Torchscript 1 -what is torchscript](https://zhuanlan.zhihu.com/p/486914187)
-<<<<<<< HEAD
 8.  [pytorch 中文使用說明](https://pytorch.apachecn.org/)
-=======
-8.  
-
->>>>>>> origin/main
+9. [為了幫助大家學習PyTorch 2.0，我爆肝三天寫出Python反編譯器](https://zhuanlan.zhihu.com/p/653323189)
