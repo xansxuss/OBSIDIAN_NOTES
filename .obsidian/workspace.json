@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/OS作業系統.md",
+                "file": "Data_Structure/Data_Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/OS作業系統.md",
+                "file": "Data_Structure/Data_Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/OS作業系統.md",
+                "file": "Data_Structure/Data_Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/OS作業系統.md"
+                "file": "Data_Structure/Data_Structure.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "eb920bbb031598c6",
   "lastOpenFiles": [
+    "OS/OS作業系統.md",
+    "Data_Structure/Data_Structure.md",
+    "Data_Structure",
     "C&C++/C++/Eigen/Eigen.md",
     "OS/CSAPP.md",
     "C&C++/C++/Eigen",
@@ -167,7 +170,6 @@
     "nvidia/CUDA/cuda_reference.md",
     "nvidia/tensorRT/tensorRT.md",
     "nvidia/jetson/NVIDIA Jetson AGX Orin 完整刷機、安裝 Tensorflow、Pytorch 、OpenCV 教學 (Ubuntu篇)-SDK Manager.md",
-    "OS/OS作業系統.md",
     "android/ndk R18 opencv 2.4.13.6.md",
     "AI_model/YOLOV8",
     "android/CMAKE and NDK build C++ code.md",
@@ -178,14 +180,12 @@
     "nvidia/jetson",
     "nvidia",
     "opencv/opencv build from source code.md",
-    "C&C++/C/C_reference.md",
     "Screenshot from 2023-06-27 10-40-30.png",
     "Screenshot from 2023-06-27 10-40-06.png",
     "C&C++/cmake",
     "software/linux",
     "LLM",
     "OBSIDIAN_NOTES/tensorflow",
-    "OBSIDIAN_NOTES/tensorRT",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-30.png",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-06.png",
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230201142317.png",
