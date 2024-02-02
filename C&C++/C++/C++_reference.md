@@ -11,5 +11,8 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [static / const成員資料與函式｜C++](https://tsungsquare.blogspot.com/2021/06/static-const.html)
 [夥伴函式與類別、不夠朋友問題｜C++](https://tsungsquare.blogspot.com/2021/06/friend.html)
 [C++ 小知識合集](https://blog.csdn.net/weixin_43653137/category_12281538.html)
-[]()
+[C++ performance 性能分析工具(sanitizers valgrind gprof gperftools perf）的使用](https://tangxing.blog.csdn.net/article/details/122601238)
+[常用排序算法 C++ 实现](https://tangxing.blog.csdn.net/article/details/119423408)
+[Leetcode刷題學習筆記 -- C++API/STL整理](https://hackmd.io/@meyr543/BkgMaiV6Y)
+[Leetcode 中我用到的C++ STL 容器及方法](https://zhuanlan.zhihu.com/p/321254269)
 
