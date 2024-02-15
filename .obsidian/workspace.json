@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f1bed9bea0087d55",
+        "id": "17b9c121c8fac522",
         "type": "tabs",
         "children": [
           {
-            "id": "4dfbcc00a3841a38",
+            "id": "f7ea98247818ec93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI_model/diffusion model/Dreambooth.md",
+                "file": "C&C++/C++/C++_reference.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI_model/diffusion model/Dreambooth.md",
+                "file": "C&C++/C++/C++_reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI_model/diffusion model/Dreambooth.md",
+                "file": "C&C++/C++/C++_reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI_model/diffusion model/Dreambooth.md"
+                "file": "C&C++/C++/C++_reference.md"
               }
             }
           }
@@ -146,13 +146,34 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "4dfbcc00a3841a38",
+  "active": "f7ea98247818ec93",
   "lastOpenFiles": [
-    "未命名.md",
-    "AI_model/diffusion model/Dreambooth.md",
-    "AI_model/diffusion model/diffusion.md",
+    "OS/linux.md",
+    "AI_model/AI_reference.md",
+    "pytorch/Pytorch.md",
     "nvidia/tensorRT/tensorRT.md",
-    "AI_model/diffusion model",
+    "pytorch/libtorch/libtorch.md",
+    "pytorch/libtorch",
+    "AI_model/影像形變矯正AI model 參考資料.md",
+    "AI_model/深入探討：為什麼要做特徵標準化？.md",
+    "AI_model/一文讀懂深度學習中的各種卷積.md",
+    "AI_model/loss function.md",
+    "ONNX inference.md",
+    "AI認證.md",
+    "python_note/python_inertools.md",
+    "AI_model/AI_model_Reference web.md",
+    "AI_model/github_pytorch_SSD_reference.md",
+    "AI_model/Object Tracking Object detection + Tracking using ByteTrack.md",
+    "AI_model/Transformer.md",
+    "pytorch/Build PyTorch from Source with CUDA 12.2.1 with Ubuntu 22.04.md",
+    "AI_model/generate image model/diffusion model/diffusion.md",
+    "Screenshot from 2023-06-27 10-40-30.png",
+    "Screenshot from 2023-06-27 10-40-06.png",
+    "AI_model/generate language model",
+    "AI_model/generate image model/diffusion model/Dreambooth.md",
+    "AI_model/generate image model",
+    "未命名.md",
+    "AI_model/generate image model/diffusion model",
     "AI_model/object detection",
     "nvidia/CUDA/cuda compiled.md",
     "C&C++/C++/C++_reference.md",
@@ -160,32 +181,11 @@
     "C&C++/C++/【C++】代码实现：base64 编码与解码.md",
     "C&C++/C++/【C++】程式碼實作：遠執行緒注入（即：遠端注入）技術--提升進程權限.md",
     "Data_Structure/Data_Structure.md",
-    "OS/OS作業系統.md",
     "Data_Structure",
-    "C&C++/C++/Eigen/Eigen.md",
-    "OS/CSAPP.md",
     "C&C++/C++/Eigen",
-    "nvidia/Understanding CUDA for GPU computing.md",
-    "AI_model/Mask-RCNN/Mask-RCNN.md",
-    "AI_model/object detection/YOLOV8/YOLOV8.md",
     "AI_model/Mask-RCNN",
-    "AI_model/未命名.md",
-    "AI_model/AI_reference.md",
-    "AI_model/github_pytorch_SSD_reference.md",
-    "AI_model/Object Tracking Object detection + Tracking using ByteTrack.md",
-    "pytorch/Build PyTorch from Source with CUDA 12.2.1 with Ubuntu 22.04.md",
-    "pytorch/Pytorch.md",
-    "pytorch/pytorch 12.0 install.md",
-    "nvidia/CUDA/cuda install.md",
-    "nvidia/CUDA/cuda_reference.md",
-    "nvidia/jetson/NVIDIA Jetson AGX Orin 完整刷機、安裝 Tensorflow、Pytorch 、OpenCV 教學 (Ubuntu篇)-SDK Manager.md",
     "AI_model/object detection/YOLOV8",
     "nvidia/jetson",
-    "nvidia",
-    "Screenshot from 2023-06-27 10-40-30.png",
-    "Screenshot from 2023-06-27 10-40-06.png",
-    "C&C++/cmake",
-    "software/linux",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-30.png",
     "OBSIDIAN_NOTES/Screenshot from 2023-06-27 10-40-06.png",
     "OBSIDIAN_NOTES/K8S/Linunx_container/image/Pasted image 20230201142317.png",

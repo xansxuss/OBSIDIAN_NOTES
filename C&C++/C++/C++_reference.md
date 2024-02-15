@@ -15,4 +15,5 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [常用排序算法 C++ 实现](https://tangxing.blog.csdn.net/article/details/119423408)
 [Leetcode刷題學習筆記 -- C++API/STL整理](https://hackmd.io/@meyr543/BkgMaiV6Y)
 [Leetcode 中我用到的C++ STL 容器及方法](https://zhuanlan.zhihu.com/p/321254269)
+[c/c++语言](https://blog.csdn.net/qq_29344757/category_9269678.html)
 
