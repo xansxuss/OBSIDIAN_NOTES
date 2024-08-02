@@ -3,3 +3,4 @@
 3. [gdb调试的常用命令](https://blog.csdn.net/qq_29344757/article/details/79563990)
 4. [閱讀 Linux Kernel 文件](https://ithelp.ithome.com.tw/users/20141136/ironman/4530)
 5. [異構多核心系統中記憶體共享的通訊堆疊](https://www.dusuniot.com/zh-TW/blog/communication-stack-for-memory-sharing-in-a-heterogeneous-multi-core-system/)
+6. [以「gcc/build-essential安裝」為例，探討離線apt-get安裝軟體包_build-essential離線包](https://blog.csdn.net/ChaimMacTavish/article/details/140389651)
