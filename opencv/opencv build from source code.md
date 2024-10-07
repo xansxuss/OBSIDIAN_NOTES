@@ -1,3 +1,5 @@
+[How to Configure Ubuntu 22.04 for CUDA Programming and OpenCV: A Comprehensive Guide](https://medium.com/@adari.girishkumar/how-to-configure-ubuntu-22-04-for-cuda-programming-and-opencv4-a-comprehensive-guide-e1eb89cbc21f)
+
 [opencv_install](https://blog.csdn.net/weixin_44384491/article/details/121142093)
 [# Using CMake to build and install OpenCV for Python and C++ in Ubuntu 20.04](https://rodosingh.medium.com/using-cmake-to-build-and-install-opencv-for-python-and-c-in-ubuntu-20-04-6c5881eebd9a)
 
