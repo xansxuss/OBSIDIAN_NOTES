@@ -1,1 +1,2 @@
 [# A simple example of using unix domain socket in Kubernetes with go](https://dev.to/douglasmakey/a-simple-example-of-using-unix-domain-socket-in-kubernetes-1fga)
+[虛擬化運維](https://blog.csdn.net/weixin_40228200/category_11748906.html)

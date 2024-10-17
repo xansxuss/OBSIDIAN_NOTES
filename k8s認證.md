@@ -1,3 +1,0 @@
-https://www.gaia.net/tc/training_detail/22/1/kubernetestraining
-https://jim850221.medium.com/%E8%80%83%E8%A9%A6-%E8%AD%89%E7%85%A7-kubernetes-ckad%E8%80%83%E8%A9%A6%E5%BF%83%E5%BE%97-5ad84b5978d9
-https://ithelp.ithome.com.tw/articles/10253064
