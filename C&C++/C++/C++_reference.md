@@ -16,4 +16,4 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [Leetcode刷題學習筆記 -- C++API/STL整理](https://hackmd.io/@meyr543/BkgMaiV6Y)
 [Leetcode 中我用到的C++ STL 容器及方法](https://zhuanlan.zhihu.com/p/321254269)
 [c/c++语言](https://blog.csdn.net/qq_29344757/category_9269678.html)
-
+[快速上手Gobject](https://blog.csdn.net/acs713/article/details/7778051)
