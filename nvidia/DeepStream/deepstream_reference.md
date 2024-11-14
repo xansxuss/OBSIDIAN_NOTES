@@ -1,0 +1,2 @@
+1. [Accelerate multi-streaming cameras with DeepStream and deploy custom (YOLO) models 使用DeepStream加速多串流攝影機並部署客製(YOLO)模型](https://hackmd.io/@YungHuiHsu/rJKx-tv4h)
+2. [使用Deepstream python API提取模型輸出張量並定製模型后處理（如：YOLO-Pose）](https://hackmd.io/@YungHuiHsu/rk41ISKY2)

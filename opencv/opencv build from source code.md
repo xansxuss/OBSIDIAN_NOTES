@@ -1,5 +1,13 @@
 [How to Configure Ubuntu 22.04 for CUDA Programming and OpenCV: A Comprehensive Guide](https://medium.com/@adari.girishkumar/how-to-configure-ubuntu-22-04-for-cuda-programming-and-opencv4-a-comprehensive-guide-e1eb89cbc21f)
+
+make -j$(nproc)
+
 #新版opencv須注意nvidia video codec SDK(nvidia 影像編譯庫) 有無安裝，不安裝-D WITH_NVCUVID=OFF
+** 將nvidia video codec SDK Lib and Interface copy to /usr/local/cuda-*/lib and /usr/local/cuda-*/include
+nvidia video codec SDK 下載網址"https://developer.nvidia.com/nvidia-video-codec-sdk/download"
+
+[build FFmpeg](https://medium.com/@vladakuc/compile-opencv-4-7-0-with-ffmpeg-5-compiled-from-the-source-in-ubuntu-434a0bde0ab6)
+[build gstreamer](https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c)
 
 [opencv_install](https://blog.csdn.net/weixin_44384491/article/details/121142093)
 [# Using CMake to build and install OpenCV for Python and C++ in Ubuntu 20.04](https://rodosingh.medium.com/using-cmake-to-build-and-install-opencv-for-python-and-c-in-ubuntu-20-04-6c5881eebd9a)
