@@ -1,0 +1,2 @@
+1. [使用 gcc 自製 C/C++ 靜態、共享與動態載入函式庫教學](https://blog.gtwang.org/programming/howto-create-library-using-gcc/)
+2. [gcc指定標頭檔路徑及動態連結程式庫路徑](https://topic.alibabacloud.com/tc/a/gcc-specifies-header-file-path-and-dynamic-link-library-path_8_8_31514990.html)

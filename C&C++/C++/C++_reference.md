@@ -17,3 +17,9 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [Leetcode 中我用到的C++ STL 容器及方法](https://zhuanlan.zhihu.com/p/321254269)
 [c/c++语言](https://blog.csdn.net/qq_29344757/category_9269678.html)
 [快速上手Gobject](https://blog.csdn.net/acs713/article/details/7778051)
+[【從零開始的 C 語言筆記】第一篇－安裝程式碼編輯器](https://ithelp.ithome.com.tw/articles/10273955)
+[内存不足引发C++程序闪退崩溃问题的分析与总结](https://blog.csdn.net/chenlycly/article/details/144017701)
+[【C++学习（40）】C++ 动态内存](https://yanyx.blog.csdn.net/article/details/111310073#comments_35272882)
+[【C++学习（39）】C++ 与STL boost 与嵌入式移植](https://yanyx.blog.csdn.net/article/details/112186080#comments_35272884)
+
+[C++ doc by mircosoft](https://learn.microsoft.com/zh-tw/cpp/cpp/?view=msvc-170)
