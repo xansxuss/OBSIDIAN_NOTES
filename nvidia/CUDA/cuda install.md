@@ -45,4 +45,6 @@ https://blog.csdn.net/jy1023408440/article/details/107258942
 
 
 1. [How to install CUDA, cuDNN and TensorFlow on Ubuntu 22.04 (2023)](https://medium.com/@gokul.a.krishnan/how-to-install-cuda-cudnn-and-tensorflow-on-ubuntu-22-04-2023-20fdfdb96907)
-2.  []
+
+sudo apt-get install nvidia-cuda-toolkit
+cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A 2

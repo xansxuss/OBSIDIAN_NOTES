@@ -17,4 +17,4 @@
 15. [PyTorch CPU性能优化（一）：Memory Format 和 Channels Last 的性能优化](https://mp.weixin.qq.com/s?__biz=MzkyMDE2OTA3Mw==&mid=2247495274&idx=1&sn=8f7a765ec047fb526f5cb49ca2662439&chksm=c1945174f6e3d8626a66ffd6d0082b1e8a8bed42afa096aa2a85afbf80a738cd043e11f29480&scene=21#wechat_redirect)
 16. [PyTorch 多机多卡训练：DDP 实战与技巧](https://mp.weixin.qq.com/s?__biz=MzkyMDE2OTA3Mw==&mid=2247499619&idx=2&sn=96a228fb9d32ef8ff1b425dc6ef4414b&chksm=c194407df6e3c96b2be84630eb27482b46eee4b147b0cffa89b61e8120103b1ff7226dc9eb8d&scene=21#wechat_redirect)
 17. [从零搭建Pytorch模型教程（一）数据读取](https://mp.weixin.qq.com/s?__biz=MzkyMDE2OTA3Mw==&mid=2247493728&idx=1&sn=3a30e67a71f2c18df697680c6004336b&chksm=c194577ef6e3de68e47294d8121c4f43c8170b114b5490cc129f212e8baf6aa379365a7a6fd9&scene=21#wechat_redirect)
-18. 
+18. [PyTorch中的學習率預熱(warmup)](https://blog.csdn.net/fengbingchun/article/details/142261770)

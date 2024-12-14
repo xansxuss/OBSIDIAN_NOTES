@@ -2,3 +2,4 @@
 2.  [How to install TensorRT: A comprehensive guide](https://medium.com/kgxperience/how-to-install-tensorrt-a-comprehensive-guide-99557c0e9d6)
 3. [TensorRTx](https://github.com/wang-xinyu/tensorrtx)
 4. [TensorRT教程（一）初次介绍TensorRT](https://mp.weixin.qq.com/s?__biz=MzkyMDE2OTA3Mw==&mid=2247500842&idx=1&sn=cd4d093a3d3d32d5a8274899d8d06bed&chksm=c1947b34f6e3f22238b60b61cbdc0ea2ab9a71e7ba160ccf0d3420e14b702807258b807c232e&scene=21#wechat_redirect)
+5. [Installing TensorRT in Ubuntu Desktop](https://medium.com/@ardianumam/installing-tensorrt-in-ubuntu-dekstop-1c7307e1dcf6)

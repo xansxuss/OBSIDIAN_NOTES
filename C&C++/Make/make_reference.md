@@ -1,0 +1,4 @@
+1. [C語言工程的通用makefile範本](https://blog.csdn.net/kangkanglhb88008/article/details/118230189?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165830489516782395338936%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=165830489516782395338936&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-118230189-null-null.185%5Ev2%5Econtrol&utm_term=%E9%80%9A%E7%94%A8%20makefile&spm=1018.2226.3001.4450)
+2. [通用的C語言Makefile程式設計](https://blog.csdn.net/ByteWhiz/article/details/133570446)
+3. [通用Makefile的使用及解析](https://blog.csdn.net/qq_41839588/article/details/132295099)
+4. [makefile常用函數以及通用makefile的編寫](https://blog.csdn.net/m0_61831106/article/details/140505171)
