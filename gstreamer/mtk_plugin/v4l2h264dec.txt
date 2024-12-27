@@ -1,0 +1,109 @@
+Factory Details:
+  Rank                     primary + 1 (257)
+  Long-name                V4L2 H264 Decoder
+  Klass                    Codec/Decoder/Video/Hardware
+  Description              Decodes H264 streams via V4L2 API
+  Author                   Nicolas Dufresne <nicolas.dufresne@collabora.com>
+
+Plugin Details:
+  Name                     video4linux2
+  Description              elements for Video 4 Linux
+  Filename                 /usr/lib/gstreamer-1.0/libgstvideo4linux2.so
+  Version                  1.20.7
+  License                  LGPL
+  Source module            gst-plugins-good
+  Source release date      2023-07-26
+  Binary package           GStreamer Good Plug-ins source release
+  Origin URL               Unknown package origin
+
+GObject
+ +----GInitiallyUnowned
+       +----GstObject
+             +----GstElement
+                   +----GstVideoDecoder
+                         +----GstV4l2VideoDec
+                               +----v4l2h264dec
+
+Pad Templates:
+  SINK template: 'sink'
+    Availability: Always
+    Capabilities:
+      video/x-h264
+          stream-format: byte-stream
+              alignment: au
+  
+  SRC template: 'src'
+    Availability: Always
+    Capabilities:
+      video/x-raw
+                 format: NV12_16L32S
+                  width: [ 1, 32768 ]
+                 height: [ 1, 32768 ]
+              framerate: [ 0/1, 2147483647/1 ]
+
+Element has no clocking capabilities.
+Element has no URI handling capabilities.
+
+Pads:
+  SINK: 'sink'
+    Pad Template: 'sink'
+  SRC: 'src'
+    Pad Template: 'src'
+
+Element Properties:
+  automatic-request-sync-point-flags: Flags to use when automatically requesting sync points
+                        flags: readable, writable
+                        Flags "GstVideoDecoderRequestSyncPointFlags" Default: 0x00000003, "corrupt-output+discard-input"
+                           (0x00000001): discard-input    - GST_VIDEO_DECODER_REQUEST_SYNC_POINT_DISCARD_INPUT
+                           (0x00000002): corrupt-output   - GST_VIDEO_DECODER_REQUEST_SYNC_POINT_CORRUPT_OUTPUT
+  automatic-request-sync-points: Automatically request sync points when it would be useful
+                        flags: readable, writable
+                        Boolean. Default: false
+  capture-io-mode     : Capture I/O mode (matches src pad)
+                        flags: readable, writable
+                        Enum "GstV4l2IOMode" Default: 0, "auto"
+                           (0): auto             - GST_V4L2_IO_AUTO
+                           (1): rw               - GST_V4L2_IO_RW
+                           (2): mmap             - GST_V4L2_IO_MMAP
+                           (3): userptr          - GST_V4L2_IO_USERPTR
+                           (4): dmabuf           - GST_V4L2_IO_DMABUF
+                           (5): dmabuf-import    - GST_V4L2_IO_DMABUF_IMPORT
+  device              : Device location
+                        flags: readable
+                        String. Default: "/dev/video8"
+  device-fd           : File descriptor of the device
+                        flags: readable
+                        Integer. Range: -1 - 2147483647 Default: -1 
+  device-name         : Name of the device
+                        flags: readable
+                        String. Default: null
+  discard-corrupted-frames: Discard frames marked as corrupted instead of outputting them
+                        flags: readable, writable
+                        Boolean. Default: false
+  extra-controls      : Extra v4l2 controls (CIDs) for the device
+                        flags: readable, writable
+                        Boxed pointer of type "GstStructure"
+  max-errors          : Max consecutive decoder errors before returning flow error
+                        flags: readable, writable
+                        Integer. Range: -1 - 2147483647 Default: 10 
+  min-force-key-unit-interval: Minimum interval between force-keyunit requests in nanoseconds
+                        flags: readable, writable
+                        Unsigned Integer64. Range: 0 - 18446744073709551615 Default: 0 
+  name                : The name of the object
+                        flags: readable, writable, 0x2000
+                        String. Default: "v4l2h264dec0"
+  output-io-mode      : Output side I/O mode (matches sink pad)
+                        flags: readable, writable
+                        Enum "GstV4l2IOMode" Default: 0, "auto"
+                           (0): auto             - GST_V4L2_IO_AUTO
+                           (1): rw               - GST_V4L2_IO_RW
+                           (2): mmap             - GST_V4L2_IO_MMAP
+                           (3): userptr          - GST_V4L2_IO_USERPTR
+                           (4): dmabuf           - GST_V4L2_IO_DMABUF
+                           (5): dmabuf-import    - GST_V4L2_IO_DMABUF_IMPORT
+  parent              : The parent of the object
+                        flags: readable, writable, 0x2000
+                        Object of type "GstObject"
+  qos                 : Handle Quality-of-Service events from downstream
+                        flags: readable, writable
+                        Boolean. Default: true
