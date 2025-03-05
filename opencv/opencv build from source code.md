@@ -25,3 +25,16 @@ for android
 https://mdeore.medium.com/latest-android-ndk-to-build-opencv-ccecd11efa82
 https://blog.devgenius.io/opencv-on-android-tiny-with-optimization-enabled-932460acfe38
 cmake .. -DANDROID_TOOLCHAIN=clang -DTARGET_SOC=rk3588 -DCMAKE_SYSTEM_NAME=Android -DCMAKE_TOOLCHAIN_FILE=~/workspaces/android/NDK/android-ndk-r18b/build/cmake/android.toolchain.cmake -DANDROID_ABI="arm64-v8a" -DANDROID_STL=c++_static -DANDROID_PLATFORM=android-24 -DCMAKE_BUILD_TYPE=Release -D WITH_OPENCL=ON -D WITH_OPENGL=ON -DBUILD_ANDROID_PROJECTS=OFF -D BUILD_opencv_videostab=OFF -D BUILD_opencv_ts=OFF -D BUILD_opencv_superres=OFF  -D BUILD_opencv_stitching=OFF -D BUILD_opencv_shape=OFF -D WITH_CUDA=OFF -D WITH_MATLAB=OFF -D BUILD_ANDROID_EXAMPLES=OFF -D BUILD_DOCS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_TESTS=OFF -D ANDROID_STL=c++_shared -D BUILD_SHARED_LIBS=ON -D BUILD_opencv_objdetect=OFF -D BUILD_opencv_video=OFF -D BUILD_opencv_videoio=OFF -D BUILD_opencv_features2d=ON -D BUILD_opencv_flann=OFF -D BUILD_opencv_highgui=ON -D BUILD_opencv_ml=OFF -D BUILD_opencv_photo=OFF -D BUILD_opencv_python=OFF
+
+for cross complier
+cmake .. \
+  -DCMAKE_TOOLCHAIN_FILE=/workspaces_data/repo/medatek_genio_700/mediatek/mtk_infer/toolchain.cmake \                                
+  -DCMAKE_INSTALL_PREFIX=$SYSROOT/usr \
+  -DOPENCV_GENERATE_PKGCONFIG=ON \
+  -DWITH_GSTREAMER=ON \
+  -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \                                  
+  -DWITH_FREETYPE=ON \
+  -DOPENCV_ENABLE_NONFREE=ON \
+  -DPYTHON3_EXECUTABLE=$SYSROOT/usr/bin/python3 \
+  -DPYTHON3_INCLUDE_DIR=$SYSROOT/usr/include/python3.10 \
+  -DPYTHON3_LIBRARY=$SYSROOT/usr/lib/libpython3.so
