@@ -1,0 +1,1 @@
+1. [openCV超詳細入門教學（python版）](https://blog.csdn.net/SGchi/article/details/104463726)

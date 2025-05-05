@@ -4,3 +4,4 @@
 [Linux Kernel Driver 重新編譯 - for Ubuntu](https://medium.com/@EricChou711/linux-kernel-driver-%E9%87%8D%E6%96%B0%E7%B7%A8%E8%AD%AF-for-ubuntu-fe6b016ef8fc)
 [蘋果小豬研究室](https://applezu.netdpi.net/)
 [IT eBooks](https://it-ebooks.info/)
+[使用Ventoy製作多系統啟動磁碟](https://blog.csdn.net/qq_44787802/article/details/146417336)

@@ -24,4 +24,5 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 
 [C++ doc by mircosoft](https://learn.microsoft.com/zh-tw/cpp/cpp/?view=msvc-170)
 
-[]()
+[undefined symbol問題的尋找、定位與解決方法](https://blog.csdn.net/SGchi/article/details/136913962)
+[C++中的fstream、ofstream、ifstream詳情](https://blog.csdn.net/qq_41903671/article/details/89601638)
