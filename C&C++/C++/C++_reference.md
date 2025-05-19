@@ -1,5 +1,6 @@
 http://kaiching.org/pydoing/cpp-guide/index.html
 https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
+[C++新手入門學習教學(完整版)](https://blog.csdn.net/martian665/article/details/140930163)
 [強大全面的C++框架和庫推薦](https://tw511.com/a/01/9476.html)
 [30天重新認識C++ 系列](https://ithelp.ithome.com.tw/users/20111996/ironman/5831)
 [程式菜鳥自學C++資料結構演算法 ](https://ithelp.ithome.com.tw/users/20140187/ironman/4017})
@@ -26,3 +27,8 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 
 [undefined symbol問題的尋找、定位與解決方法](https://blog.csdn.net/SGchi/article/details/136913962)
 [C++中的fstream、ofstream、ifstream詳情](https://blog.csdn.net/qq_41903671/article/details/89601638)
+[單例模式 Singleton](https://skyyen999.gitbooks.io/-study-design-pattern-in-java/content/singleton.html)
+[c++11標準模板（STL）（std::basic_streambuf）](https://blog.csdn.net/qq_40788199/article/details/131358428)
+[c++11日期和時間工具-（std::chrono::steady_clock）（std::chrono::high_resolution_clock）_std chrono time](https://blog.csdn.net/qq_40788199/article/details/126814573)
+[c++11日期和時間工具-（std::chrono::system_clock](https://blog.csdn.net/qq_40788199/article/details/126813753)
+[c++ 11 原子操作庫 （std::atomic）（三）](https://blog.csdn.net/qq_40788199/article/details/126880293)
