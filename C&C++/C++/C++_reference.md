@@ -1,6 +1,7 @@
 http://kaiching.org/pydoing/cpp-guide/index.html
 https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [C++新手入門學習教學(完整版)](https://blog.csdn.net/martian665/article/details/140930163)
+[C語言指針深入詳解（三）：數組名理解、指針訪問數組、一維數組傳參的本質、冒泡排序、二級指針、指針數組、指針數組模擬二維數組](https://blog.csdn.net/2401_89899187/article/details/148041488)
 [強大全面的C++框架和庫推薦](https://tw511.com/a/01/9476.html)
 [30天重新認識C++ 系列](https://ithelp.ithome.com.tw/users/20111996/ironman/5831)
 [程式菜鳥自學C++資料結構演算法 ](https://ithelp.ithome.com.tw/users/20140187/ironman/4017})
