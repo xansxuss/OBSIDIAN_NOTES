@@ -33,3 +33,4 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [c++11日期和時間工具-（std::chrono::steady_clock）（std::chrono::high_resolution_clock）_std chrono time](https://blog.csdn.net/qq_40788199/article/details/126814573)
 [c++11日期和時間工具-（std::chrono::system_clock](https://blog.csdn.net/qq_40788199/article/details/126813753)
 [c++ 11 原子操作庫 （std::atomic）（三）](https://blog.csdn.net/qq_40788199/article/details/126880293)
+[C++ main函式中參數argc和argv意義及用法_c++ argv怎麼用](https://blog.csdn.net/dcrmg/article/details/51987413)

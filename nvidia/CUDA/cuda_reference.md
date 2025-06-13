@@ -1,1 +1,2 @@
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#
+1. [CUDA軟體架構—網格（Grid）、線程塊（Block）和線程（Thread）的組織關係以及線程索引的計算公式_grid、block 和thread 的關係](https://blog.csdn.net/dcrmg/article/details/54867507#comments_37137301)
