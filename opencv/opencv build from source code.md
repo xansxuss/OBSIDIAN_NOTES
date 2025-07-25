@@ -32,7 +32,7 @@ cmake .. \
   -DCMAKE_INSTALL_PREFIX=$SYSROOT/usr \
   -DOPENCV_GENERATE_PKGCONFIG=ON \
   -DWITH_GSTREAMER=ON \
-  -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \                                  
+  -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
   -DWITH_FREETYPE=ON \
   -DOPENCV_ENABLE_NONFREE=ON \
   -DPYTHON3_EXECUTABLE=$SYSROOT/usr/bin/python3 \

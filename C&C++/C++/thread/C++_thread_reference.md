@@ -1,1 +1,3 @@
 1. [線程安全與線程池](https://blog.csdn.net/2402_85679719/article/details/148371314)
+2. [程序(進程)、執行緒(線程)、協程，傻傻分得清楚！](https://oldmo860617.medium.com/%E9%80%B2%E7%A8%8B-%E7%B7%9A%E7%A8%8B-%E5%8D%94%E7%A8%8B-%E5%82%BB%E5%82%BB%E5%88%86%E5%BE%97%E6%B8%85%E6%A5%9A-a09b95bd68dd)
+3. [std::async的使用以及 C++ 中非同步操作的實作](https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://blog.csdn.net/lizhichao410 /article/details/123732787)

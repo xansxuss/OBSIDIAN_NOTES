@@ -18,7 +18,6 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [Leetcode刷題學習筆記 -- C++API/STL整理](https://hackmd.io/@meyr543/BkgMaiV6Y)
 [Leetcode 中我用到的C++ STL 容器及方法](https://zhuanlan.zhihu.com/p/321254269)
 [c/c++语言](https://blog.csdn.net/qq_29344757/category_9269678.html)
-[快速上手Gobject](https://blog.csdn.net/acs713/article/details/7778051)
 [【從零開始的 C 語言筆記】第一篇－安裝程式碼編輯器](https://ithelp.ithome.com.tw/articles/10273955)
 [内存不足引发C++程序闪退崩溃问题的分析与总结](https://blog.csdn.net/chenlycly/article/details/144017701)
 [【C++学习（40）】C++ 动态内存](https://yanyx.blog.csdn.net/article/details/111310073#comments_35272882)
@@ -34,3 +33,5 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [c++11日期和時間工具-（std::chrono::system_clock](https://blog.csdn.net/qq_40788199/article/details/126813753)
 [c++ 11 原子操作庫 （std::atomic）（三）](https://blog.csdn.net/qq_40788199/article/details/126880293)
 [C++ main函式中參數argc和argv意義及用法_c++ argv怎麼用](https://blog.csdn.net/dcrmg/article/details/51987413)
+[【C++指南】類別與物件（二）:類別的預設成員函數－全面剖析：建構函數](https://juejin.cn/post/7514954479859630119)
+[【C++指南】類別與物件（三）:類別的預設成員函數－全面剖析： 析構函數](https://juejin.cn/post/7514947261395419155)
