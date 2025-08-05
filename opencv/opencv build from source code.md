@@ -19,7 +19,7 @@ git clone https://github.com/opencv/opencv_contrib
 
 CMAKE:
 cmake .. -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D  OPENCV_GENERATE_PKGCONFIG=ON -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D WITH_GTK=ON -D WITH_GSTREAMER=ON -DWITH_GIF=ON -DWITH_AVIF=ON -D WITH_CUDA=ON -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda -D CUDA_ARCH_BIN=8.6 -D CUDA_ARCH_PTX=" "  -D WITH_CUDNN=ON -D OPENCV_DNN_CUDA=ON -D ENABLE_FAST_MATH=1 -D CUDA_FAST_MATH=1 -D WITH_CUBLAS=1 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules -D WITH_FREETYPE=TRUE -D OPENCV_ENABLE_NONFREE=ON -D BUILD_opencv_python3=ON -D PYTHON_EXECUTABLE=$(which python3) -D BUILD_EXAMPLES=OFF -D BUILD_TESTS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_opencv_java=OFF -D BUILD_JAVA=OFF -D PYTHON3_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so -D PYTHON3_INCLUDE_DIR=/usr/include/python3.12 -D PYTHON_EXECUTABLE=$(which python3) -D BUILD_EXAMPLES=OFF -D BUILD_TESTS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_opencv_java=OFF -D BUILD_JAVA=OFF -D FREETYPE_INCLUDE_DIRS="/usr/include/freetype2;/usr/include/libpng16" -D FREETYPE_LIBRARIES=/usr/lib/x86_64-linux-gnu/libfreetype.so
-make -j$(nproc)
+ 
 
 [opencv with cuda](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7)
 [【小白用】在Ubuntu上安装OpenCV任何版本+Contrib库+CUDA兼容](https://waltpeter.github.io/open-cv-basic/install-opencv-with-contrib-ubuntu/index.html)

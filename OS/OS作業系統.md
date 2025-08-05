@@ -6,3 +6,4 @@
 [IT eBooks](https://it-ebooks.info/)
 [使用Ventoy製作多系統啟動磁碟](https://blog.csdn.net/qq_44787802/article/details/146417336)
 [Linux磁碟管理：從基礎到實踐](https://blog.csdn.net/weixin_73120118/article/details/148060344)
+[作業系統](https://blog.csdn.net/rong_toa/category_10434822.html)
