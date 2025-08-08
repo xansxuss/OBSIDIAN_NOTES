@@ -3,3 +3,5 @@ https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#
 2. [CUDA(*.cu)程式與C(*.c)原始程式混合編譯](https://rtoax.blog.csdn.net/article/details/106172966)
 3. [CUDA零拷貝記憶體（zerocopy memory）](https://rtoax.blog.csdn.net/article/details/78666103)
 4. [CUDA記憶體分配、釋放、傳輸，固定記憶體](https://rtoax.blog.csdn.net/article/details/78665318)
+5. [動手學習CUDA](https://blog.csdn.net/weixin_45715405/category_12960143.html)
+6. []()
