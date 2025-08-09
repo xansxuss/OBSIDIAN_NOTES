@@ -22,6 +22,20 @@ export PATH=/usr/local/perl/bin:$PATH
 /usr/local/perl/bin/cpan install lib
 
 
+libstdc++.so.6
+wget https://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.gz
+tar -xvzf gcc-12.2.0.tar.gz
+cd gcc-12.2.0
+./contrib/download_prerequisites
+mkdir ../gcc-build
+cd ../gcc-build
+../gcc-12.2.0/configure --prefix=/usr/local --enable-languages=c,c++ --disable-multilib
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+ls /usr/local/lib | grep libstdc++.so.6
+
+
 1. zlib
 下載: zlib 最新版本
 編譯指令:
