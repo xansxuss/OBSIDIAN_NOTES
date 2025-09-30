@@ -13,13 +13,20 @@ nvidia video codec SDK 下載網址"https://developer.nvidia.com/video-codec-sdk
 
 sudo apt-get update -qq && sudo apt-get -y install autoconf automake build-essential cmake git libass-dev libfreetype6-dev libgnutls28-dev libmp3lame-dev libsdl2-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev meson ninja-build pkg-config texinfo wget curl vim htop yasm zlib1g-dev nasm libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libopus-dev libdav1d-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav gstreamer1.0-plugins-{base,good,bad,ugly} libgl1-mesa-dev libglu1-mesa-dev intel-opencl-icd ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo qtbase5-dev qtbase5-dev-tools qt5-qmake qtchooser qttools5-dev qttools5-dev-tools python3-dev python3-pip python3-numpy libgtk-3-dev libglib2.0-dev glade
 
+tar -xvf ffmpeg
+./configure  --enable-shared --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-zlib
+make -j$(nproc)
+make install
 
 git clone https://github.com/opencv/opencv
 git clone https://github.com/opencv/opencv_contrib
 
 CMAKE:
 cmake .. -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D  OPENCV_GENERATE_PKGCONFIG=ON -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D WITH_GTK=ON -D WITH_GSTREAMER=ON -DWITH_GIF=ON -DWITH_AVIF=ON -D WITH_CUDA=ON -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda -D CUDA_ARCH_BIN=8.6 -D CUDA_ARCH_PTX=" "  -D WITH_CUDNN=ON -D OPENCV_DNN_CUDA=ON -D ENABLE_FAST_MATH=1 -D CUDA_FAST_MATH=1 -D WITH_CUBLAS=1 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules -D WITH_FREETYPE=TRUE -D OPENCV_ENABLE_NONFREE=ON -D BUILD_opencv_python3=ON -D PYTHON_EXECUTABLE=$(which python3) -D BUILD_EXAMPLES=OFF -D BUILD_TESTS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_opencv_java=OFF -D BUILD_JAVA=OFF -D PYTHON3_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so -D PYTHON3_INCLUDE_DIR=/usr/include/python3.12 -D PYTHON_EXECUTABLE=$(which python3) -D BUILD_EXAMPLES=OFF -D BUILD_TESTS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_opencv_java=OFF -D BUILD_JAVA=OFF -D FREETYPE_INCLUDE_DIRS="/usr/include/freetype2;/usr/include/libpng16" -D FREETYPE_LIBRARIES=/usr/lib/x86_64-linux-gnu/libfreetype.so
- 
+
+make -j$(nproc)
+make install
+
 
 [opencv with cuda](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7)
 [【小白用】在Ubuntu上安装OpenCV任何版本+Contrib库+CUDA兼容](https://waltpeter.github.io/open-cv-basic/install-opencv-with-contrib-ubuntu/index.html)
