@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "7a35a6d4db13d3d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a30d196c20381d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1dba5d92f278055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C&C++/C++/pointer/pointer_base.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pointer_base"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d5e66a1f1ea3527",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b4d3f117c023845",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee80f6d3b7e60fe2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "3f171fc6f1420318",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "5c00d86f372ff31f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b28a004a0dc78327",
+    "type": "split",
+    "children": [
+      {
+        "id": "5357669ec73e8749",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b068c424866ed265",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C&C++/C++/pointer/pointer_reference.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "pointer_reference 的反向連結"
+            }
+          },
+          {
+            "id": "245bde31a50ef732",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C&C++/C++/pointer/pointer_reference.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "pointer_reference 的對外連結"
+            }
+          },
+          {
+            "id": "de6725765c514470",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "77cf3584072fd572",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C&C++/C++/pointer/pointer_reference.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "pointer_reference 的大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
+    }
+  },
+  "active": "a1dba5d92f278055",
+  "lastOpenFiles": [
+    "C&C++/C++/media/pointer_type.png",
+    "C&C++/C++/media/ChatGPT Image 2025年10月15日 下午01_22_41.png",
+    "C&C++/C++/media",
+    "C&C++/C++/pointer/image.png",
+    "C&C++/C++/pointer/pointer_reference.md",
+    "C&C++/C++/pointer/pointer_base.md",
+    "opencv/border_extrapolation.md",
+    "opencv/filters/Fourier-based.md",
+    "C&C++/C++/inline/C++ 中的inline 用法.md",
+    "C&C++/C++/template/template <typename T> 場景對照表.md.md",
+    "C&C++/C++/template/C++ 中的inline 用法.md",
+    "C&C++/C++/template/##C++ 中的inline 用法.md",
+    "C&C++/C++/inline",
+    "C&C++/C++/operator_overloading/operator_overloading_reference.md",
+    "C&C++/C++/note/在 Linux 下開發 C_C++ 的新手指南.md",
+    "C&C++/C++/namespeace/namespeace_reference.md",
+    "C&C++/C++/Eigen/Eigen.md",
+    "C&C++/C++/array/array reference.md",
+    "C&C++/C++/process/C++_process_reference.md",
+    "C&C++/C++/pybind11/pybind11_reference.md",
+    "C&C++/C++/scope/scope_reference.md",
+    "C&C++/C++/STL/std::map.md",
+    "C&C++/C++/STL/C++ STL 總結.md",
+    "C&C++/C++/struct/struct_reference.md",
+    "C&C++/C++/C++非同步程式設計從入門到精通實戰：全面指南與實戰案例.md",
+    "C&C++/C++/C++_reference.md",
+    "C&C++/C++/C++ STL 迭代器(iterator).md",
+    "C&C++/C++/C++_operator.md",
+    "C&C++/C++/【C++】程式碼實作：遠執行緒注入（即：遠端注入）技術--提升進程權限.md",
+    "C&C++/C++/【C++】代码实现：base64 编码与解码.md"
+  ]
+}
