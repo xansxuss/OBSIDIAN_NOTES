@@ -55,7 +55,14 @@ int add(int a, int b) { return a + b; }
 int (*fp)(int, int) = add;
 std::cout << fp(2, 3) << std::endl; // 5
 ```
+5.  函式指標陣列
+- 用於回調或策略模式
 
+``` cpp
+int (*funcs[2])(int,int) = {add, [](int x,int y){return x*y;}};
+int r1 = funcs[1](3,4); // 12
+```
+	
 ### 2. C++ 指標進階用法
 1. 指標與動態記憶體
 - 使用 new / delete（C++11 可用 unique_ptr / shared_ptr 取代）：
@@ -153,7 +160,17 @@ int* ip = static_cast<int*>(ptr);
 
 - void* 可以指向任何型別，但需要 cast 才能使用。
 
-4. 指標與結構
+4. 指標與 struct/class
+
+``` cpp
+struct Node { int val; Node* next; };
+Node a{1,nullptr};
+Node* pNode = &a;
+```
+- 可做鏈結串列、樹、圖結構。
+- 進階：雙指標 Node** 用於 insert/delete 操作更方便。
+
+5. 指標與結構
 
 ``` cpp
 struct Point { int x, y; };
@@ -162,7 +179,7 @@ Point* ptr = &p1;
 ptr->x = 10; // 使用 -> 操作成員
 ```
 
-5. 智慧指標（C++11+）
+7. 智慧指標（C++11+）
 
 - unique_ptr → 單一擁有權
 - shared_ptr → 多重擁有權
@@ -174,6 +191,8 @@ ptr->x = 10; // 使用 -> 操作成員
 auto p = std::make_unique<int>(42); // unique_ptr
 auto sp = std::make_shared<int>(100); // shared_ptr
 ```
+
+8. 多維動態陣列
 
 工程上推薦使用智慧指標代替裸指標管理資源。
 
