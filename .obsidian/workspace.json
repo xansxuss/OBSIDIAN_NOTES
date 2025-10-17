@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "667000723203df3d",
+        "id": "04fdd2ca69fc0a8b",
         "type": "tabs",
         "children": [
           {
-            "id": "3f21ce95021368b1",
+            "id": "21cd16437744bea6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nvidia/CUDA/CUDA_C++/Unified_Memory_by_cuda.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Unified_Memory_by_cuda"
+              "title": "新分頁"
             }
           }
         ]
@@ -166,9 +162,21 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "3f21ce95021368b1",
+  "active": "d6246c6b2f79b042",
   "lastOpenFiles": [
+    "OS/Linux_virtual_address/page_fault.md",
+    "OS/Linux_virtual_address/lazy_memory_migration.md",
+    "OS/Linux_virtual_address/Linux行程虛擬位址空間佈局.md",
+    "OS/Linux_virtual_address/Linux 行程虛擬位址空間佈局.md",
+    "OS/Linux_virtual_address/lazy memory migration.md",
+    "OS/Linux_virtual_address/media/4GB_Virtual_Address_Space.png",
+    "OS/Linux_virtual_address/media/Linux環境進程典型的記憶體佈局.png",
     "nvidia/CUDA/CUDA_C++/Unified_Memory_by_cuda.md",
+    "OS/Linux_virtual_address/media",
+    "OS/Linux_virtual_address/APUE.md",
+    "OS/Linux_virtual_address",
+    "nvidia/CUDA/Nsight Compute 在 Linux 預設下需要開啟 GPU 硬體效能計數器的權限.md",
+    "C&C++/C++/【C++】實做：base64 編碼與解碼.md",
     "C&C++/C++/template/template <typename T> 場景對照表.md",
     "C&C++/C++/template/template_base.md",
     "img_process/H264_Slice.md",
@@ -186,14 +194,6 @@
     "C&C++/C++/C++_reference.md",
     "C&C++/C++/C++_operator.md",
     "C&C++/C++/C++ 常用程式終止方法比較表.md",
-    "C&C++/C++/C++ STL 迭代器(iterator).md",
-    "C&C++/C++/unit_test/unit_test_reference.md",
-    "C&C++/C++/struct/struct_reference.md",
-    "C&C++/C++/STL/C++ STL 總結.md",
-    "C&C++/C++/STL/std::map.md",
-    "C&C++/C++/scope/scope_reference.md",
-    "C&C++/C++/pybind11/pybind11_reference.md",
-    "C&C++/C++/process/C++_process_reference.md",
     "C&C++/C++/pointer/image.png",
     "C&C++/C++/media/template_type.png",
     "C&C++/C++/media/ChatGPT Image 2025年10月15日 下午02_30_01.png"
