@@ -4,38 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "367d6e1c2da479ed",
+        "id": "b5d174c6c444a3e8",
         "type": "tabs",
         "children": [
           {
-            "id": "cb87fc84ad4db9fb",
+            "id": "4ae42e14ce2917a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C&C++/C++/POD/CPP_POD.md",
+                "file": "C&C++/C++/STL/std::mutex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPP_POD"
+              "title": "std::mutex"
             }
           },
           {
-            "id": "e3b82bace188fb7f",
+            "id": "bee4b0e4d6409975",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "關聯圖檢視"
+            }
+          },
+          {
+            "id": "75376c0eab5fa5c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C&C++/C++/POD/POD_type_CPP_queue.md",
-                "mode": "preview",
+                "file": "C&C++/C++/STL/std::unique_lock.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POD_type_CPP_queue"
+              "title": "std::unique_lock"
+            }
+          },
+          {
+            "id": "170547e7d0e7bfeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C&C++/C++/STL/std::lock_guard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "std::lock_guard"
+            }
+          },
+          {
+            "id": "18a061edd7f20be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C&C++/C++/STL/std::scoped_lock.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "std::scoped_lock"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,6 +200,46 @@
               "icon": "lucide-list",
               "title": "大綱"
             }
+          },
+          {
+            "id": "c655d4a28b15c76b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "16c7290ef6a4df92",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "5e3876cd103ca4cf",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "BC-trail-icon",
+              "title": "Breadcrumbs Matrix"
+            }
+          },
+          {
+            "id": "ced5ff7b5829a2f7",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "feather-corner-right-down",
+              "title": "Breadcrumbs Down"
+            }
           }
         ]
       }
@@ -177,49 +256,52 @@
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false
+      "bases:建立新的 base": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "cb87fc84ad4db9fb",
+  "active": "bee4b0e4d6409975",
   "lastOpenFiles": [
+    "C&C++/C++/STL/C++ STL 迭代器(iterator).md",
+    "C&C++/C++/STL/std::queue_and_std::deque效能比較.md",
+    "C&C++/C++/STL/std::mutex.md",
+    "C&C++/C++/STL/std::scoped_lock.md",
+    "C&C++/C++/STL/std::lock_guard.md",
+    "未命名.md",
+    "C&C++/C++/STL/std::unique_lock.md",
+    "K8S/Linunx_container/Namespace隔離.md",
+    "K8S/Linunx_container/Linux_container_introduce.md",
+    "C&C++/C++/STL/std::condition_variable.md",
+    "RUST/Common Programming Concepts/Data Types.md",
+    "RUST/Common Programming Concepts/Control Flow.md",
+    "RUST/Common Programming Concepts/Comments.md",
+    "C&C++/C++/STL/media/std-vector.png",
+    "software/軟體開發平台及語言筆記大全(超詳細).md",
+    "README.md",
+    "C&C++/C++/file_stream/fstream.md",
+    "C&C++/C++/STL/std::vector.md",
+    "C&C++/C++/STL/std::deque.md",
+    "C&C++/C++/STL/fstream.md",
+    "C&C++/C++/file_stream",
+    "C&C++/C++/STL/std::queue_and_std::deque效能比較Untitled-1.md",
+    "274e.png",
+    "C&C++/C++/STL/std::queue.md",
+    "C&C++/C++/STL/std::thread.md",
+    "C&C++/C++/STL/syd::mutex實作.md",
+    "C&C++/C++/STL/media/Unconfirmed 287402.crdownload",
+    "C&C++/C++/STL/media",
     "C&C++/C++/POD/POD_type_CPP_queue.md",
     "C&C++/C++/POD/CPP_POD.md",
     "network/MQTT/MQTT發布訂閱模式介紹.md",
     "C&C++/C++/POD",
-    "network/MQTT/建立MQTT 連線時如何設定參數.md",
-    "network/MQTT/MQTT基礎知識.md",
     "network/MQTT/media/MQTT 發布訂閱架構.jpg",
     "network/MQTT/media/MQTT 發布訂閱架構",
     "network/MQTT/media/Unconfirmed 888570.crdownload",
     "network/MQTT/media/MQTT發布訂閱流程.jpg",
     "network/MQTT/media/Unconfirmed 377429.crdownload",
     "network/MQTT/media",
-    "nvidia/CUDA/CUDA_C++/cuda_memery/unlock_gpu_performance_global_memory_access_in_cuda.md",
     "未命名 3",
     "未命名 2",
-    "未命名 1",
-    "未命名",
-    "network/MQTT",
-    "UAV_project/UAV_project_list.md",
-    "nvidia/CUDA/CUDA_C++/cuda_memery/Understanding_Memory_Management_on_Hardware-Coherent_Platforms.md",
-    "nvidia/CUDA/CUDA_C++/cuda_memery/Simplifying_GPU_Application_Development_with_Heterogeneous_Memory_Management.md",
-    "opencv/### cv::Mat images[batch]; 這一行在 C++ 裡的型態.md",
-    "nvidia/CUDA/CUDA_C++/cuda_memery/NUMA.md",
-    "nvidia/CUDA/CUDA_C++/cuda_memery/Unified_Memory_by_cuda.md",
-    "nvidia/CUDA/CUDA_C++/cuda_memery/CPP&CUDA資料對齊.md",
-    "nvidia/CUDA/CUDA_C++/cuda_struct/cuda_struct.md",
-    "nvidia/CUDA/CUDA_C++/cuda_struct/dim3_setting.md",
-    "nvidia/CUDA/CUDA_C++/dim3_setting.md",
-    "nvidia/CUDA/CUDA_C++/CPP&CUDA資料對齊.md",
-    "C&C++/C++/compiler_optimization/loop_unrolling_CUDA.md",
-    "C&C++/C++/assert/C&CPP_斷言指令.md",
-    "C&C++/C++/compiler_optimization/loop_unrolling.md",
-    "C&C++/C++/compiler_optimization/loop_unrolling.md.md",
-    "C&C++/C++/16進制轉換.md",
-    "nvidia/CUDA/CUDA_C++/Unified_Memory_by_cuda.md",
-    "OS/memery/C&CPP記憶體對齊.md",
-    "nvidia/CUDA/CUDA_C++/cuda_struct.md",
-    "OS/Linux_virtual_address/lazy memory migration.md",
     "OS/Linux_virtual_address/media/4GB_Virtual_Address_Space.png",
     "OS/Linux_virtual_address/media/Linux環境進程典型的記憶體佈局.png",
     "C&C++/C++/pointer/image.png",
