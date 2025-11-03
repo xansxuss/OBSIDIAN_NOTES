@@ -32,7 +32,6 @@ void func() {
     std::scoped_lock lock(m1, m2); // 同時鎖定 m1 與 m2
     // 這裡是臨界區
 } // lock 會自動釋放
-
 ```
 
 重點：
