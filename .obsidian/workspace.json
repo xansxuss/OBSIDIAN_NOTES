@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "129e6b73c78ce708",
+        "id": "6e569afee21ab839",
         "type": "tabs",
         "children": [
           {
-            "id": "c669e7a47c56ba25",
+            "id": "4357b3ba70e08097",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C&C++/C++/string/strcpy_strlen_strcat_strcmp的實作.md",
+                "file": "network/MQTT/MQTT_mosquittopp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "strcpy_strlen_strcat_strcmp的實作"
+              "title": "MQTT_mosquittopp"
+            }
+          },
+          {
+            "id": "a59971d8024f7599",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/MQTT/MQTT_mosquitto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MQTT_mosquitto"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "165b647a9b9882cc",
@@ -228,10 +244,22 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "c669e7a47c56ba25",
+  "active": "a59971d8024f7599",
   "lastOpenFiles": [
-    "aaa.md",
+    "CSS/css_span用法.md",
+    "CSS",
+    "C&C++/C++/CPP_Overload.md",
+    "network/MQTT/MQTT_mosquittopp.md",
+    "network/MQTT/MQTT_mosquitto.md",
+    "C&C++/C++/thread/std::atomic<bool>.md",
+    "C&C++/C++/STL/C++ std_bind函數適配器.md",
     "C&C++/C++/string/strcpy_strlen_strcat_strcmp的實作.md",
+    "C&C++/C++/STL/media/C++ std_bind函數適配器_2.png",
+    "C&C++/C++/STL/media/Unconfirmed 508354.crdownload",
+    "C&C++/C++/STL/media/C++ std_bind函數適配器_1.png",
+    "C&C++/C++/STL/media/Unconfirmed 230908.crdownload",
+    "C&C++/C++/STL/C++ std_bind函數適配器.html",
+    "aaa.md",
     "C&C++/C++/template/靜態多型與動態多型.md",
     "C&C++/C++/template/Cpp奇異遞歸模板模式(CRTP).md",
     "C&C++/C++/template/Cpp奇異遞歸模板模式(CRTP).html",
@@ -246,16 +274,11 @@
     "C&C++/C++/thread/media/std_atomic_flag_1.png",
     "C&C++/C++/thread/media",
     "C&C++/C++/thread/media/std_atomic_flag_3.png",
-    "C&C++/C++/thread/Unconfirmed 794005.crdownload",
     "C&C++/C++/thread/media/std_atomic_flag_2.png",
-    "C&C++/C++/thread/Unconfirmed 154403.crdownload",
-    "C&C++/C++/thread/Unconfirmed 365619.crdownload",
     "C&C++/C++/thread/C++_thread_reference.md",
     "C&C++/C++/STL/std::scoped_lock.md",
     "C&C++/C++/STL/std::lock_guard.md",
     "C&C++/C++/STL/std::unique_lock.md",
-    "C&C++/C++/thread/std::atomic<bool>.md",
-    "C&C++/C++/thread/C++ std__atomic_flag與sta__atomic_bool_布爾標誌_std atomic bool-CSDN博客.html",
     "C&C++/C++/STL/std::condition_variable.md",
     "C&C++/C++/thread/multi_thread.md",
     "C&C++/C++/thread/thread.md",
@@ -264,17 +287,10 @@
     "C&C++/C++/STL/std::queue_and_std::deque效能比較.md",
     "C&C++/C++/STL/std::mutex.md",
     "未命名.md",
-    "K8S/Linunx_container/Namespace隔離.md",
-    "K8S/Linunx_container/Linux_container_introduce.md",
-    "RUST/Common Programming Concepts/Data Types.md",
-    "RUST/Common Programming Concepts/Control Flow.md",
-    "RUST/Common Programming Concepts/Comments.md",
     "C&C++/C++/STL/media/std-vector.png",
     "274e.png",
     "network/MQTT/media/MQTT 發布訂閱架構.jpg",
     "network/MQTT/media/MQTT發布訂閱流程.jpg",
-    "OS/Linux_virtual_address/media/4GB_Virtual_Address_Space.png",
-    "OS/Linux_virtual_address/media/Linux環境進程典型的記憶體佈局.png",
-    "C&C++/C++/pointer/image.png"
+    "OS/Linux_virtual_address/media/4GB_Virtual_Address_Space.png"
   ]
 }
