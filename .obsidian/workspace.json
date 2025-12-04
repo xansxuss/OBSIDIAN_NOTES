@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5a93715e86a14a24",
+        "id": "c0de274df5af918a",
         "type": "tabs",
         "children": [
           {
-            "id": "d90d43571cb27308",
+            "id": "aabc6d34bac3dffe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Deep_Sort/Deep_Sort.md",
+                "file": "algorithm/ByteTrack/ByteTrack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep_Sort"
+              "title": "ByteTrack"
             }
           }
         ]
@@ -307,30 +307,36 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "d90d43571cb27308",
+  "active": "aabc6d34bac3dffe",
   "lastOpenFiles": [
-    "algorithm/Deep_Sort/media/Deep_SORT流程圖.png",
+    "algorithm/ByteTrack/Strack.md",
+    "algorithm/Kalman_Filter/Kalman_Filter.md",
+    "algorithm/Gaussian_Distribution/Gaussian_Distribution.md",
+    "algorithm/Gaussian_Distribution",
+    "algorithm/Kalman_Filter",
+    "274e.png",
+    "algorithm/ByteTrack/ByteTrack.md",
+    "algorithm/ByteTrack/media/ByteTrack 資料流動圖.png",
+    "algorithm/ByteTrack/media",
+    "algorithm/Mahalanobis_distance/Mahalanobis_distance.md",
+    "algorithm/ByteTrack",
     "algorithm/Hungarian_Algorithm/Hungarian_Algorithm.md",
+    "algorithm/Mahalanobis_distance",
+    "algorithm/Hungarian_Algorithm/media/匈牙利演算法步驟圖.png",
+    "algorithm/data_structure/Data compression/Data compression_reference.md",
+    "algorithm/data_structure/data_structure_reference.md",
     "algorithm/Deep_Sort/Deep_Sort.md",
+    "algorithm/Deep_Sort/media/Deep_SORT流程圖.png",
     "algorithm/Deep_Sort/media",
     "algorithm/Deep_Sort",
-    "algorithm/Hungarian_Algorithm/media/匈牙利演算法步驟圖.png",
     "algorithm/Hungarian_Algorithm/media",
-    "algorithm/data_structure/data_structure_reference.md",
     "algorithm/Hungarian_Algorithm",
-    "algorithm/data_structure/Data compression/Data compression_reference.md",
     "OS/CDCI/CDCI server_build server.md",
-    "274e.png",
     "trakcer/ByteTrack.md",
     "trakcer/media/ByteTrack MOT pipeline diagram.png",
     "trakcer/media",
     "AI_model/YOLO/two_decoupled_heads.md",
-    "trakcer",
     "OS/CDCI/CICD.md",
-    "AI_model/YOLO",
-    "OS/CDCI",
-    "OS/CD/CDCI",
-    "OS/CD/CI",
     "git_data/git_pro.md",
     "git_data/git add ssh key.md",
     "AI/Ultralytics option.md",
@@ -344,15 +350,10 @@
     "gstreamer/nvidia_plugins/nv3dsink.md",
     "nvidia/CUDA/CUDA_C++/cuda_memery/NvBufSurface.md",
     "gstreamer/nvidia_plugins/nveglglessink.md",
-    "opencv/影像格式.md",
-    "C&CPP/CPP/keyword/static/static函式.md",
-    "C&CPP/CPP/keyword/static/static.md",
     "C&CPP/CPP/thread/media/std_atomic_flag_3.png",
     "C&CPP/CPP/thread/media/std_atomic_flag_2.png",
     "C&CPP/CPP/thread/media/std_atomic_flag_1.png",
     "C&CPP/CPP/file_stream/media/隱藏的flag.png",
-    "C&CPP/CPP/STL/media/C++ std_bind函數適配器_2.png",
-    "C&CPP/CPP/STL/media/std-vector.png",
-    "C&CPP/CPP/unit_test/unit_test_reference.md"
+    "C&CPP/CPP/STL/media/C++ std_bind函數適配器_2.png"
   ]
 }
