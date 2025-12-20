@@ -1,0 +1,1 @@
+1. [python 實作客戶端軟體授權書籤授權cryptography_python cryptography](https://blog.csdn.net/LEILEI18A/article/details/147503050)

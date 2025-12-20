@@ -5,7 +5,7 @@ import torch
 print(torch.cuda.is_available())
 ```
 
-python3 -c "import tensorflow as tf; print(torch.cuda.is_available())"
+python3 -c "import torch; print(torch.cuda.is_available())"
 
 ### pytorch docker image
 https://hub.docker.com/r/pytorch/pytorch/tags?page=1

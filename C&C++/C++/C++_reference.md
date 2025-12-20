@@ -1,5 +1,7 @@
 http://kaiching.org/pydoing/cpp-guide/index.html
 https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
+[C++新手入門學習教學(完整版)](https://blog.csdn.net/martian665/article/details/140930163)
+[C語言指針深入詳解（三）：數組名理解、指針訪問數組、一維數組傳參的本質、冒泡排序、二級指針、指針數組、指針數組模擬二維數組](https://blog.csdn.net/2401_89899187/article/details/148041488)
 [強大全面的C++框架和庫推薦](https://tw511.com/a/01/9476.html)
 [30天重新認識C++ 系列](https://ithelp.ithome.com.tw/users/20111996/ironman/5831)
 [程式菜鳥自學C++資料結構演算法 ](https://ithelp.ithome.com.tw/users/20140187/ironman/4017})
@@ -16,7 +18,6 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 [Leetcode刷題學習筆記 -- C++API/STL整理](https://hackmd.io/@meyr543/BkgMaiV6Y)
 [Leetcode 中我用到的C++ STL 容器及方法](https://zhuanlan.zhihu.com/p/321254269)
 [c/c++语言](https://blog.csdn.net/qq_29344757/category_9269678.html)
-[快速上手Gobject](https://blog.csdn.net/acs713/article/details/7778051)
 [【從零開始的 C 語言筆記】第一篇－安裝程式碼編輯器](https://ithelp.ithome.com.tw/articles/10273955)
 [内存不足引发C++程序闪退崩溃问题的分析与总结](https://blog.csdn.net/chenlycly/article/details/144017701)
 [【C++学习（40）】C++ 动态内存](https://yanyx.blog.csdn.net/article/details/111310073#comments_35272882)
@@ -24,4 +25,13 @@ https://hackmd.io/@Mes/Cpp_Miner/https%3A%2F%2Fhackmd.io%2F%40Mes%2FPreface
 
 [C++ doc by mircosoft](https://learn.microsoft.com/zh-tw/cpp/cpp/?view=msvc-170)
 
-[]()
+[undefined symbol問題的尋找、定位與解決方法](https://blog.csdn.net/SGchi/article/details/136913962)
+[C++中的fstream、ofstream、ifstream詳情](https://blog.csdn.net/qq_41903671/article/details/89601638)
+[單例模式 Singleton](https://skyyen999.gitbooks.io/-study-design-pattern-in-java/content/singleton.html)
+[c++11標準模板（STL）（std::basic_streambuf）](https://blog.csdn.net/qq_40788199/article/details/131358428)
+[c++11日期和時間工具-（std::chrono::steady_clock）（std::chrono::high_resolution_clock）_std chrono time](https://blog.csdn.net/qq_40788199/article/details/126814573)
+[c++11日期和時間工具-（std::chrono::system_clock](https://blog.csdn.net/qq_40788199/article/details/126813753)
+[c++ 11 原子操作庫 （std::atomic）（三）](https://blog.csdn.net/qq_40788199/article/details/126880293)
+[C++ main函式中參數argc和argv意義及用法_c++ argv怎麼用](https://blog.csdn.net/dcrmg/article/details/51987413)
+[【C++指南】類別與物件（二）:類別的預設成員函數－全面剖析：建構函數](https://juejin.cn/post/7514954479859630119)
+[【C++指南】類別與物件（三）:類別的預設成員函數－全面剖析： 析構函數](https://juejin.cn/post/7514947261395419155)
