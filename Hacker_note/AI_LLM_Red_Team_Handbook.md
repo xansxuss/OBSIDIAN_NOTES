@@ -1,0 +1,2 @@
+[**AI LLM Red Team Handbook**](https://cph-sec.gitbook.io/ai-llm-red-team-handbook-and-field-manual)
+[**AI LLM Red Team Handbook  github**](https://github.com/Shiva108/ai-llm-red-team-handbook/blob/main/docs/archive/AI%20LLM%20Red%20Team%20Handbook.md)

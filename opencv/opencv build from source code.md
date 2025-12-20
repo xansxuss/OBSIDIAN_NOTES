@@ -13,10 +13,16 @@ nvidia video codec SDK 下載網址"https://developer.nvidia.com/video-codec-sdk
 
 sudo apt-get update -qq && sudo apt-get -y install autoconf automake build-essential cmake git libass-dev libfreetype6-dev libgnutls28-dev libmp3lame-dev libsdl2-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev meson ninja-build pkg-config texinfo wget curl vim htop yasm zlib1g-dev nasm libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libopus-dev libdav1d-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav gstreamer1.0-plugins-{base,good,bad,ugly} libgl1-mesa-dev libglu1-mesa-dev intel-opencl-icd ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo qtbase5-dev qtbase5-dev-tools qt5-qmake qtchooser qttools5-dev qttools5-dev-tools python3-dev python3-pip python3-numpy libgtk-3-dev libglib2.0-dev glade
 
-wget https://www.ffmpeg.org/releases/ffmpeg-6.1.1.tar.gz
-tar -xvf ffmpeg-6.1.1.tar.gz
-cd ffmpeg-6.1.1
-./configure  --enable-shared --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-zlib
+
+git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
+cd nv-codec-headers && sudo make install
+
+<!-- nvidia video decode SDK 12.1需對應ffmpeg 7.X.X and cuda 12.2 up -->
+wget https://www.ffmpeg.org/releases/ffmpeg-ffmpeg-7.0.1.tar.gz
+tar -xvf ffmpeg-7.0.1.tar.gz
+cd ffmpeg-7.0.1
+./configure  --enable-shared --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-zlib --enable-nonfree --enable-cuda-nvcc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static
+
 make -j$(nproc)
 make install
 

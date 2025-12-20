@@ -39,7 +39,7 @@ bash: /usr/bin/mv: Argument list too long
 
 ``` bash
 find . -maxdepth 1 -type f -name 'C01F_AI004_2025-10-15_10_10_03_802_frame_*.jpg' \
-  | awk -F'[_.]' '{n=$(NF-1); if(n>=000000 && n<=250000) print $0}' \
+  | awk -F'[_.]' '{n=$(NF-1); if(n>=000000 && n<=300000) print $0}' \
   | xargs -I{} mv {} ../C01F_AI004_2025-10-15_10_10_03_802_2/
 ```
 
@@ -127,7 +127,7 @@ parallel mv {} ../C01F_AI004_2025-10-15_10_10_03_802_2/
 
 ``` bash
 find . -maxdepth 1 -type f -name 'C01F_AI004_2025-10-15_10_10_03_802_frame_*.json' \
-  | awk -F'[_.]' '{n=$(NF-1); if(n>=114266 && n<=228533) print $0}' \
+  | awk -F'[_.]' '{n=$(NF-1); if(n>=000000 && n<=300000) print $0}' \
   | xargs rm -f
 ```
 
