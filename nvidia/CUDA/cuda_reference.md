@@ -4,4 +4,5 @@ https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#
 3. [CUDA零拷貝記憶體（zerocopy memory）](https://rtoax.blog.csdn.net/article/details/78666103)
 4. [CUDA記憶體分配、釋放、傳輸，固定記憶體](https://rtoax.blog.csdn.net/article/details/78665318)
 5. [動手學習CUDA](https://blog.csdn.net/weixin_45715405/category_12960143.html)
-6. []()
+6. [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
+7. [Questions you ask when interviewing someone who says they know CUDA?](https://www.reddit.com/r/CUDA/comments/1ooy8iq/questions_you_ask_when_interviewing_someone_who/)
