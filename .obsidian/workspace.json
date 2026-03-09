@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "308b9b4400267a48",
+        "id": "a22772acfa3728de",
         "type": "tabs",
         "children": [
           {
-            "id": "25b16a9bd7d88d2e",
+            "id": "a05c5373b976267f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trakcer/ByteTrack.md",
+                "file": "program/Algorithm/Practical_Byzantine_Fault_Tolerance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ByteTrack"
+              "title": "Practical_Byzantine_Fault_Tolerance"
+            }
+          },
+          {
+            "id": "9ad4240eb282a75c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "program/Algorithm/Hierarchical_Navigable_Small_World.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hierarchical_Navigable_Small_World"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,12 +88,22 @@
               "icon": "lucide-bookmark",
               "title": "書籤"
             }
+          },
+          {
+            "id": "91198581db5f1bfe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "165b647a9b9882cc",
@@ -272,24 +297,264 @@
             "id": "de2dd19bf1a00370",
             "type": "leaf",
             "state": {
-              "type": "BC-matrix",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "BC-matrix"
+              "icon": "lucide-file",
+              "title": "新分頁"
             }
           },
           {
             "id": "394f1837aedaf7bf",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "41c0d27a88cd0d32",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "11b108bc03ac4995",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "583904df973d6c09",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "fd8a7631f6487aad",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "65a9a36ec02297e6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "5f83fb51566927ed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "3571353426f00427",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "e096d58a2c4261c0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "e650b2a3af9896ed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "58bde1f99c0db35b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "23b5291fdf758cc4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "a31e21c217908704",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "b34a7cecebc48715",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "a82e7be4e349e446",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "864af5019cab8056",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "dc0ebb3a3a6fe214",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "b45067d0fd25822e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "d391ae3243662d8b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "59117fdce09a089d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "35b1a501b9e2def4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "e854d1de9a820f71",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "dc5bedebb9b1c634",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "8ee7f8135586722e",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "BC-trail-icon",
+              "title": "Breadcrumbs Matrix"
+            }
+          },
+          {
+            "id": "40253054461aa94a",
+            "type": "leaf",
+            "state": {
               "type": "BC-tree",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "BC-tree"
+              "icon": "feather-corner-right-down",
+              "title": "Breadcrumbs Down"
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 41
       }
     ],
     "direction": "horizontal",
@@ -304,56 +569,60 @@
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false
+      "bases:建立新的 base": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "25b16a9bd7d88d2e",
+  "active": "9ad4240eb282a75c",
   "lastOpenFiles": [
-    "algorithm/ByteTrack/ByteTrack.md",
-    "trakcer/ByteTrack.md",
+    "program/Algorithm/Island_Genetic_Algorithm.md",
+    "program/Algorithm/Hierarchical_Navigable_Small_World.md",
+    "program/Algorithm/Practical_Byzantine_Fault_Tolerance.md",
+    "program/Algorithm/Genetic_Algorithm.md",
+    "program/Algorithm/Grid_Search.md",
+    "program/Algorithm",
+    "program",
+    "AI/Algorithm/stochastic_depth_prob.md",
+    "AI/Algorithm/遺傳演算法_(Genetic_Algorithm_GA).md",
+    "AI/math/Dot_Product.md",
+    "OS/yocto/from_source_build_library.md",
+    "OS/yocto/install_opencv_gstreamer.md",
+    "OS/yocto/yocto_reference.md",
+    "OS/yocto/mtk_recovery.md",
+    "OS/yocto/mtk_ycvto_build_env.md",
+    "hardware/Single_Instruction_Multiple_Threads.md",
+    "hardware/Single_Instruction_Multiple_Data.md",
+    "hardware/nvidia_gpu_SIMD_SIMT.md",
+    "UAV_project/UAV_project_list.md",
+    "hardware",
+    "pytorch/function/nn_BCEWithLogitsLoss.md",
+    "AI/Algorithm",
+    "AI/CNN/CNN_reference.md",
+    "AI/Accelerator/memryX/memryX_tutorials.md",
+    "AI/NMS/多類一起計算nms跟按照不同類各自計算nms差異.md",
+    "pytorch/function/nn_CrossEntropyLoss.md",
+    "pytorch/Pytorch.md",
+    "nvidia/tensorRT/trtexec_help.md",
+    "onnx2tf_option.md",
+    "tensorflow/tflite",
+    "nvidia/tensorRT/tensorRT.md",
+    "YL-MFG-ALL-009.pdf",
+    "未命名.canvas",
+    "未命名.base",
+    "未命名 3.base",
+    "未命名 2.base",
+    "OS/DMA/dma-buf/media/DAM-buf由淺入深(一)--最簡單的dma-buf驅動程式_典型dma-buf應用框架圖.png",
+    "未命名 1.base",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "OS/DMA/dma-buf/media/dma-buf 由浅入深(三)—— map attachment_dma-buf_ api_buffer鍊表.png",
+    "OS/DMA/dma-buf/media/DAM-buf由淺入深(一)--最簡單的dma-buf驅動程式_運行截圖.png",
     "trakcer/media/ByteTrack MOT pipeline diagram.png",
-    "OS/process_reference.md",
-    "OS/Remote Procedure Calls.md",
-    "OS/shell_command.md",
-    "OS/show_number_of_file.md",
-    "opencv/border_extrapolation.md",
-    "opencv/cv::Mat_images[batch];_這一行在_C++_裡的型態.md",
-    "opencv/影像格式.md",
-    "opencv/opencv-python in docker ImportError libGL.so.1 cannot open shared object file No such file or directory.md",
-    "opencv/How to convert cvMatpointer to cvMat?.md",
-    "opencv/NV12_YV12_YUV的主要格式.md",
-    "opencv/opencv build from source code.md",
-    "opencv/OpenCV Mat數據類型和圖像矩陣.md",
-    "opencv/opencv_reference.md",
-    "opencv/opencv_use_cuda_on_nvidia_Jetson.md",
-    "opencv/filters/filters.md",
-    "opencv/filters/Fourier-based.md",
     "opencv/media/NV12_1.png",
-    "algorithm/ByteTrack/Strack.md",
-    "algorithm/data_structure/Data compression/Data compression_reference.md",
-    "algorithm/data_structure/data_structure_reference.md",
-    "algorithm/Deep_Sort/Deep_Sort.md",
     "algorithm/Deep_Sort/media/Deep_SORT流程圖.png",
-    "algorithm/Kalman_Filter/Kalman_Filter.md",
-    "algorithm/Hungarian_Algorithm/Hungarian_Algorithm.md",
-    "nvidia/CUDA/CUDA-ROCm_Dual_backend.md",
-    "nvidia/CUDA/CUDA_kernel_roadmap.md",
-    "algorithm/random_seed",
-    "AI/REID",
-    "algorithm/Gaussian_Distribution",
-    "algorithm/Kalman_Filter",
     "274e.png",
     "algorithm/ByteTrack/media/ByteTrack 資料流動圖.png",
-    "algorithm/ByteTrack/media",
-    "algorithm/ByteTrack",
-    "algorithm/Mahalanobis_distance",
     "algorithm/Hungarian_Algorithm/media/匈牙利演算法步驟圖.png",
-    "algorithm/Deep_Sort/media",
-    "algorithm/Deep_Sort",
-    "algorithm/Hungarian_Algorithm/media",
-    "C&CPP/CPP/thread/media/std_atomic_flag_3.png",
-    "C&CPP/CPP/thread/media/std_atomic_flag_2.png",
-    "C&CPP/CPP/thread/media/std_atomic_flag_1.png",
-    "C&CPP/CPP/file_stream/media/隱藏的flag.png"
+    "C&CPP/CPP/thread/media/std_atomic_flag_3.png"
   ]
 }

@@ -46,19 +46,19 @@ cat_1: score=0.93 (IoU = 0.7)
 延伸：Hybrid NMS
 可以做類別加權（weighted IoU 或 weighted score）來達成更細膩的控制，例如：
 
-pseudo
-複製
-編輯
+``` pseudo
 adj_iou = IoU * similarity(c1, c2)  // 類似度高的類別互壓更嚴格
+```
+
 這對類別多、且有樹狀結構（如 COCO-stuff）時很有幫助。
 
 🔧 實作建議（PyTorch 為例）
 Torchvision 的 batched_nms 實際就是 Class-wise NMS：
-python
-複製
-編輯
+```python
 from torchvision.ops import batched_nms
 keep = batched_nms(boxes, scores, labels, iou_threshold)
+```
+
 若要做 Class-agnostic NMS，只要全部 label 改為同一類別即可。
 
 總結

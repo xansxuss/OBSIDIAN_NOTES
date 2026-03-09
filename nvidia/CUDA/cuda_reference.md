@@ -6,3 +6,4 @@ https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#
 5. [動手學習CUDA](https://blog.csdn.net/weixin_45715405/category_12960143.html)
 6. [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 7. [Questions you ask when interviewing someone who says they know CUDA?](https://www.reddit.com/r/CUDA/comments/1ooy8iq/questions_you_ask_when_interviewing_someone_who/)
+8. [HighPerformanceComputing](https://github.com/h3ct0rjs/HighPerformanceComputing/blob/master/BookRef/Programming%20Massively%20Parallel%20Processors.pdf)
