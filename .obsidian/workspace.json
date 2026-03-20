@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a22772acfa3728de",
+        "id": "648037d9038e5bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "a05c5373b976267f",
+            "id": "4c9bbd8d2d9e5da6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "program/Algorithm/Practical_Byzantine_Fault_Tolerance.md",
+                "file": "docker/docker _output_image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practical_Byzantine_Fault_Tolerance"
-            }
-          },
-          {
-            "id": "9ad4240eb282a75c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "program/Algorithm/Hierarchical_Navigable_Small_World.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hierarchical_Navigable_Small_World"
+              "title": "docker _output_image"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -537,6 +522,106 @@
             "id": "8ee7f8135586722e",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "40253054461aa94a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "f98a97d092aea203",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "f738ff08bf074f24",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "f661fa3596642b2a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "82b5496798254ab2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "514164aa222687c9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "12d5aa6a0efb0a66",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "b128cfe5a14d15ab",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "f28504dc4ed6be6c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          },
+          {
+            "id": "a4b118f29f78364d",
+            "type": "leaf",
+            "state": {
               "type": "BC-matrix",
               "state": {},
               "icon": "BC-trail-icon",
@@ -544,7 +629,7 @@
             }
           },
           {
-            "id": "40253054461aa94a",
+            "id": "689c8ac6034f5680",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -554,7 +639,7 @@
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 51
       }
     ],
     "direction": "horizontal",
@@ -573,10 +658,21 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "9ad4240eb282a75c",
+  "active": "689c8ac6034f5680",
   "lastOpenFiles": [
-    "program/Algorithm/Island_Genetic_Algorithm.md",
+    "AI/Algorithm/UMAP.md",
+    "AI/Algorithm/t-SNE.md",
+    "RUST/Common Programming Concepts/Variables and Mutability.md",
+    "RUST/Common Programming Concepts/Functions.md",
+    "RUST/Common Programming Concepts/Data Types.md",
+    "RUST/Common Programming Concepts/Control Flow.md",
+    "RUST/Common Programming Concepts/Comments.md",
+    "AI/Algorithm/Manifold_Hypothesis.md",
+    "python_note/shared_memory.md",
+    "opencv/opencv build from source code.pdf",
+    "opencv/opencv build from source code_tmp.html",
     "program/Algorithm/Hierarchical_Navigable_Small_World.md",
+    "program/Algorithm/Island_Genetic_Algorithm.md",
     "program/Algorithm/Practical_Byzantine_Fault_Tolerance.md",
     "program/Algorithm/Genetic_Algorithm.md",
     "program/Algorithm/Grid_Search.md",
@@ -595,24 +691,13 @@
     "hardware/nvidia_gpu_SIMD_SIMT.md",
     "UAV_project/UAV_project_list.md",
     "hardware",
-    "pytorch/function/nn_BCEWithLogitsLoss.md",
     "AI/Algorithm",
-    "AI/CNN/CNN_reference.md",
-    "AI/Accelerator/memryX/memryX_tutorials.md",
-    "AI/NMS/多類一起計算nms跟按照不同類各自計算nms差異.md",
-    "pytorch/function/nn_CrossEntropyLoss.md",
-    "pytorch/Pytorch.md",
-    "nvidia/tensorRT/trtexec_help.md",
-    "onnx2tf_option.md",
     "tensorflow/tflite",
-    "nvidia/tensorRT/tensorRT.md",
     "YL-MFG-ALL-009.pdf",
     "未命名.canvas",
     "未命名.base",
     "未命名 3.base",
-    "未命名 2.base",
     "OS/DMA/dma-buf/media/DAM-buf由淺入深(一)--最簡單的dma-buf驅動程式_典型dma-buf應用框架圖.png",
-    "未命名 1.base",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "OS/DMA/dma-buf/media/dma-buf 由浅入深(三)—— map attachment_dma-buf_ api_buffer鍊表.png",

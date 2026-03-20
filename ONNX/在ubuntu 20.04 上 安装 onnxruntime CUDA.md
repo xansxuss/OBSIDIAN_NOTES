@@ -19,3 +19,10 @@ except Exception as e:
 
 print(f"實際使用的 Provider: {ort.get_available_providers()}")
 ```
+
+
+
+install on nvidia jetson
+```
+pip3 install onnxruntime-gpu --index-url https://pypi.jetson-ai-lab.io/jp6/cu126
+```
