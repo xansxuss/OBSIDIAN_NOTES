@@ -21,3 +21,19 @@ docker exec -u 0 -it pytorch_2_3_1 bash
 docker create -v /workspaces_data --name data_volume_container -v /home/shared/:/workspaces_data/shared -v /home/eray/repo/:/workspaces_data/repo 
 -v /home/eray/project/:/workspaces_data/project ubuntu:18.04
 ```
+
+
+
+nvidia jetson
+
+```
+docker run -it -d \
+    --runtime nvidia \
+    --network host \
+    -e DISPLAY=$DISPLAY \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v $(pwd):/workspace \
+    -w /workspace \
+    nvcr.io/nvidia/l4t-jetpack:r36.3.0 \
+    /bin/bash
+```
