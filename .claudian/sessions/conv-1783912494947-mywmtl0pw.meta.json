@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783912494947-mywmtl0pw",
+  "providerId": "claude",
+  "title": "Create index",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783912494947,
+  "updatedAt": 1784080317039,
+  "lastResponseAt": 1783914485624,
+  "sessionId": "33258527-57d2-4af5-8477-152fe8aef84e",
+  "providerState": {
+    "providerSessionId": "33258527-57d2-4af5-8477-152fe8aef84e"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 84493,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 84493,
+    "percentage": 42,
+    "contextWindowIsAuthoritative": true
+  }
+}

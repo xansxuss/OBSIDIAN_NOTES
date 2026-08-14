@@ -7,4 +7,3 @@ ffmpeg -re -stream_loop -1 -i /workspaces_data/repo/media/Night_Walk_in_Tokyo_Sh
 
 接收串流
 ffplay -vcodec h264_cuvid -rtsp_transport tcp rtsp://192.168.33.103:8554/C520WS
-```

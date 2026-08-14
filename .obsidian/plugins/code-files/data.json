@@ -1,0 +1,17 @@
+{
+  "extensions": [
+    "c",
+    "cpp",
+    "h",
+    "py",
+    "cu",
+    "cuh"
+  ],
+  "folding": true,
+  "lineNumbers": true,
+  "minimap": true,
+  "semanticValidation": true,
+  "syntaxValidation": true,
+  "theme": "default",
+  "overwriteBg": true
+}

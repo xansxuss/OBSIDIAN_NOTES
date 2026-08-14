@@ -47,8 +47,8 @@ ffmpeg -hwaccel cuda -i input_file -c:v h264_nvenc -pix_fmt yuv420p -preset p4 -
 ```
 
 ``` bash
-git clone https://github.com/opencv/opencv
-git clone https://github.com/opencv/opencv_contrib
+git clone --depth 1 --branch 4.10.0 https://github.com/opencv/opencv.git
+git clone --depth 1 --branch 4.10.0 https://github.com/opencv/opencv_contrib.git
 ```
 
 CMAKE:
@@ -58,6 +58,14 @@ cmake .. -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D  OPEN
 
 make -j$(nproc)
 make install
+#CPack 打包成 `.deb`
+cpack -G DEB
+```
+
+```python
+import cv2
+print(cv2.getBuildInformation())
+python3 -c "import cv2;print(cv2.getBuildInformation()); print('Version:', cv2.__version__); print('CUDA Devices:', cv2.cuda.getCudaEnabledDeviceCount())"
 ```
 
 [opencv with cuda](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7)

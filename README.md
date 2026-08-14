@@ -135,12 +135,35 @@
 - edge_surveillance
 - multi_rtsp_inference
 - UAV_AI
+## 10.MATH
 
-
-## 10 EXPERIMENTS
+## 11 EXPERIMENTS
 - benchmark
 - failed
 - profiling
 - temporary_tests
 - weird_behavior
-## 11 Failed_idea
+## 12 Failed_idea
+
+## 13 **SYSTEMS_INTELLIGENCE**
+把 perception / compute / time / hardware / control 混合在一起的設計思考
+#### - perception 系統架構
+- event-based vision
+- hybrid frame-event systems
+	- event_based_tracking
+- multi-rate sensing
+#### - 時間系統（核心）
+- continuous-time estimation
+- latency-aware design
+- asynchronous pipeline
+#### - compute 架構
+- CUDA streaming graph
+- zero-copy pipeline
+- multi-rate inference
+#### - sensing fusion
+- camera + IMU
+- event + frame fusion
+- sensor scheduling
+#### - control loop
+- tracking → prediction → actuation
+- closed-loop latency compensation

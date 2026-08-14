@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d2e79d49e3d444af",
+        "id": "b47b9ef2b63e143b",
         "type": "tabs",
         "children": [
           {
-            "id": "540c9e608bbba1db",
+            "id": "92c4e5dccff81885",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "foundation/systems/async_pipeline/ABA問題.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "ABA問題"
+            }
+          },
+          {
+            "id": "db926f244ac52636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "foundation/programming_language/C_CPP/CPP/Atomic/C++_fetch_add.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++_fetch_add"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -37,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
@@ -49,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ringbuffer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 288.5
   },
   "right": {
     "id": "165b647a9b9882cc",
@@ -141,21 +162,22 @@
             }
           },
           {
-            "id": "719fa4befa9e2796",
+            "id": "828aaaabb3a6bd0b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "foundation/OS/tool/shell_command.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大綱"
+              "title": "shell_command 的大綱"
             }
           },
           {
-            "id": "c655d4a28b15c76b",
+            "id": "8aac516b311b403b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,7 +187,7 @@
             }
           },
           {
-            "id": "16c7290ef6a4df92",
+            "id": "8dbbd95868bf1734",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,7 +197,7 @@
             }
           },
           {
-            "id": "5e3876cd103ca4cf",
+            "id": "040e734d12032beb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -185,7 +207,7 @@
             }
           },
           {
-            "id": "ced5ff7b5829a2f7",
+            "id": "2f697115b45a8166",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -195,7 +217,7 @@
             }
           },
           {
-            "id": "5569cd64ce2dc45f",
+            "id": "a8b1fb18683d4e66",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -205,7 +227,7 @@
             }
           },
           {
-            "id": "b7a677837470093b",
+            "id": "f6bf13b3f1c18477",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -215,7 +237,7 @@
             }
           },
           {
-            "id": "5a0ca292a471cfe4",
+            "id": "a7f2c24432e6f056",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -225,7 +247,7 @@
             }
           },
           {
-            "id": "f018432406d21221",
+            "id": "9c61e20077d2fa4d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -235,7 +257,7 @@
             }
           },
           {
-            "id": "12614747c2e27a9e",
+            "id": "3e60924ee12a24fb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -245,7 +267,7 @@
             }
           },
           {
-            "id": "ddcf3602f5e0dc94",
+            "id": "e4937c34159f83ed",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -255,7 +277,7 @@
             }
           },
           {
-            "id": "da54f24706f74b75",
+            "id": "7e047dc609f008fc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -265,7 +287,7 @@
             }
           },
           {
-            "id": "efdc1d6efdd0e55c",
+            "id": "6d23a5f7d57576f4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -275,7 +297,7 @@
             }
           },
           {
-            "id": "de2dd19bf1a00370",
+            "id": "f692c354625718cb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -285,7 +307,7 @@
             }
           },
           {
-            "id": "394f1837aedaf7bf",
+            "id": "00126a4944cf7383",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -295,7 +317,7 @@
             }
           },
           {
-            "id": "41c0d27a88cd0d32",
+            "id": "19cf7d1a79f85590",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -305,7 +327,7 @@
             }
           },
           {
-            "id": "11b108bc03ac4995",
+            "id": "ec81806ae735fc19",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -315,7 +337,7 @@
             }
           },
           {
-            "id": "583904df973d6c09",
+            "id": "dc18b54af27bcbc5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -325,7 +347,7 @@
             }
           },
           {
-            "id": "fd8a7631f6487aad",
+            "id": "9c3d249038ccd1c5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -335,7 +357,7 @@
             }
           },
           {
-            "id": "65a9a36ec02297e6",
+            "id": "5ad05697e599646e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -345,7 +367,7 @@
             }
           },
           {
-            "id": "5f83fb51566927ed",
+            "id": "33716a03b0963adf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -355,7 +377,7 @@
             }
           },
           {
-            "id": "3571353426f00427",
+            "id": "9ed4926108fb8e76",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -365,7 +387,7 @@
             }
           },
           {
-            "id": "e096d58a2c4261c0",
+            "id": "9ac121a1e861aa9c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -375,7 +397,7 @@
             }
           },
           {
-            "id": "e650b2a3af9896ed",
+            "id": "cac54984e44924fd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -385,7 +407,7 @@
             }
           },
           {
-            "id": "58bde1f99c0db35b",
+            "id": "d06fb9853812342c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -395,7 +417,7 @@
             }
           },
           {
-            "id": "23b5291fdf758cc4",
+            "id": "e1e957cbb0b6598d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -405,7 +427,7 @@
             }
           },
           {
-            "id": "a31e21c217908704",
+            "id": "f1c6a01b5e1b3323",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -415,7 +437,7 @@
             }
           },
           {
-            "id": "b34a7cecebc48715",
+            "id": "67e9615f171117a0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -425,7 +447,7 @@
             }
           },
           {
-            "id": "a82e7be4e349e446",
+            "id": "75577c02ab851274",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -435,7 +457,7 @@
             }
           },
           {
-            "id": "864af5019cab8056",
+            "id": "f923e4f2144181e2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -445,7 +467,7 @@
             }
           },
           {
-            "id": "dc0ebb3a3a6fe214",
+            "id": "73530ab754427768",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -455,7 +477,7 @@
             }
           },
           {
-            "id": "b45067d0fd25822e",
+            "id": "6d0c20ed0d2949d1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -465,7 +487,7 @@
             }
           },
           {
-            "id": "d391ae3243662d8b",
+            "id": "7d0d00041eb5d746",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -475,7 +497,7 @@
             }
           },
           {
-            "id": "59117fdce09a089d",
+            "id": "546889bd5dd28da3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -485,7 +507,7 @@
             }
           },
           {
-            "id": "35b1a501b9e2def4",
+            "id": "c476068bcd04bee9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -495,7 +517,7 @@
             }
           },
           {
-            "id": "e854d1de9a820f71",
+            "id": "a13835e4f66e02f9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -505,7 +527,7 @@
             }
           },
           {
-            "id": "dc5bedebb9b1c634",
+            "id": "dbfda6533a42afb7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -515,7 +537,7 @@
             }
           },
           {
-            "id": "8ee7f8135586722e",
+            "id": "abb34fdb1065f011",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -525,7 +547,7 @@
             }
           },
           {
-            "id": "40253054461aa94a",
+            "id": "73126c839dcfd1e8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -535,7 +557,7 @@
             }
           },
           {
-            "id": "f98a97d092aea203",
+            "id": "b9ef649b877fafb8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -545,7 +567,7 @@
             }
           },
           {
-            "id": "f738ff08bf074f24",
+            "id": "f694a58cb01945aa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -555,7 +577,7 @@
             }
           },
           {
-            "id": "f661fa3596642b2a",
+            "id": "041a8267ce3fbf94",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -565,7 +587,7 @@
             }
           },
           {
-            "id": "82b5496798254ab2",
+            "id": "d7c625bd35089cf3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -575,7 +597,7 @@
             }
           },
           {
-            "id": "514164aa222687c9",
+            "id": "de589cfa1e265929",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -585,7 +607,7 @@
             }
           },
           {
-            "id": "12d5aa6a0efb0a66",
+            "id": "b63d631efb17cb44",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -595,427 +617,7 @@
             }
           },
           {
-            "id": "b128cfe5a14d15ab",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "f28504dc4ed6be6c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "a4b118f29f78364d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "689c8ac6034f5680",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "b9b06ea1c5303de2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "5028bb0d59738f0e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "77af00b2fead57d3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "2b03d8c9b63ddf58",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "7ce76920d23d5bd5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "07f8145eba28643f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "0c7050d60b055dea",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "a262eabefb86daf5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "4a02e69c0a29a834",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "b105f3dea266cbcf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "0af88c87e86bb2fc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "1ffe423939a69931",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "ba19ad779baae6ba",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "b454aff63f250f34",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "d2f683b4d4db5d74",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "0c2a7251c9754170",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "8a303682e0f8e0c8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "230132fc43db989c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "34db728a40f1637e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "e535dd77388f8eb5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "5a6d4aee4d4e7086",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "744311bf67eabea7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "0f9e595ffdd2b549",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "87984db6f45280e4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "0b0eb4cb9c4b2a90",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "5525aab6182e9512",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "f6b4bbd5cc92904c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "dc779b49b490fdb5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "196054d28cc1d753",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "740f8f5fbc0047ad",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "5cd4af935d1767d8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "3f01d193bdf70fe8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "ff8592a0304ad5c9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "01638731a1a04bef",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "29ef1ebc6c8eada1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "f3ace8e79ff9384b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "0066cecc31736bbe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "1bc2c341d452ce7c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
-            }
-          },
-          {
-            "id": "f713c4fe66b52e9b",
+            "id": "a808a7a6ede430e1",
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
@@ -1025,7 +627,7 @@
             }
           },
           {
-            "id": "99b65d3690d4a460",
+            "id": "82edb1db1adab077",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -1035,11 +637,11 @@
             }
           }
         ],
-        "currentTab": 91
+        "currentTab": 49
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 347.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -1051,59 +653,61 @@
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "bases:建立新的 base": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "realclaudian:Open Claudian": false,
+      "code-files:Create Code File": false
     }
   },
-  "active": "99b65d3690d4a460",
+  "active": "db926f244ac52636",
   "lastOpenFiles": [
-    "AI/AI_reference.md",
-    "AI/Algorithm/Manifold_Hypothesis.md",
-    "AI/Algorithm/stochastic_depth_prob.md",
-    "AI/Algorithm/t-SNE.md",
-    "AI/Algorithm/UMAP.md",
-    "README.md",
-    "OS/samba/how_to_set_samba.md",
-    "C&CPP/CPP/STL/std::queue.md",
-    "C&CPP/CPP/C++_operator.md",
-    "research/research-backlog.md.md",
-    "research/Template.md",
-    "README.md~",
-    "OS/cross_compile/set_env.md",
+    "foundation/programming_language/C_CPP/CPP/Atomic/原子運算.md",
+    "foundation/programming_language/C_CPP/CPP/Atomic/C++_fetch_add.md",
+    "foundation/programming_language/C_CPP/CPP/Atomic/__atomic_store_n.md",
+    "foundation/systems/async_pipeline/ringbuffer/Dmitry_Vyukov的bounded_queue設計.md",
+    "未命名.md",
+    "foundation/systems/async_pipeline/ABA問題.md",
+    "foundation/systems/async_pipeline/ringbuffer/ringbuffer.md",
+    "edge_AI/architecture/ring_buffer/Main memory vs CUDA memory ringbuffer differences.md",
+    "foundation/programming_language/C_CPP/CPP/ringbuffer",
+    "streaming_media/FFmpeg/build_from_source_code.md",
+    "foundation/programming_language/C_CPP/從C語言到C++_40(多執行緒相關)C++執行緒介面+執行緒安全問題加鎖(shared_ptr+STL+單例).md",
+    "streaming_media/FFmpeg/ffmpeg_command.md",
+    "foundation/programming_language/C_CPP/CPP/template/Cpp奇異遞歸模板模式(CRTP).md",
+    "foundation/programming_language/C_CPP/CPP/template/template <typename T> 場景對照表.md",
+    "foundation/programming_language/C_CPP/CPP/template/template_base.md",
+    "foundation/programming_language/C_CPP/CPP/template/靜態多型與動態多型.md",
+    "foundation/OS/tool/find_command_exclusion_path.md",
+    "foundation/OS/tool/kernel_backup_revert.md",
+    "foundation/OS/tool/search_infile_string.md",
+    "foundation/OS/tool/shell_command.md",
+    "foundation/OS/tool/command_line_mv_file.md",
+    "foundation/hardware/nvidia/codec/NVIDIA硬體解編碼器架構.md",
+    "foundation/hardware/nvidia/codec/Pasted image 20260812111138.png",
+    "foundation/hardware/nvidia/codec/Pasted image 20260812111121.png",
+    "streaming_media/opencv/opencv build from source code.md",
+    "embedded/qualcomm/Dragonwing IQ vs Q.md",
+    "embedded/qualcomm/轉換.md",
+    "foundation/hardware/arm/ARM_PSA_security_system.md",
+    "foundation/hardware/arm/Cortex-A53 processor overview.md",
+    "streaming_media/V4L2",
+    "foundation/systems/memory/MIMO",
+    "foundation/hardware/nvidia/codec",
+    "embedded/qualcomm",
+    "AI_system/Algorithm/Loss_function/Pasted image 20260716173947.jpg",
+    "AI_system/Algorithm/Loss_function",
+    "research/MAVLink",
+    "AI_system/AI_model_Reference web.md.tmp.1822780.d562631d5d13",
+    "streaming_media/codec/NALU",
+    "foundation/hardware/nvidia/DeepStream/nvbufsurface",
+    "streaming_media/codec/byte_stream/Pasted image 20260709112656.png",
+    "research/zerocopy_cudapipeline.png",
+    "research/Gemini_Generated_Image_suyd3tsuyd3tsuyd.png",
     "image_processing/opencv/opencv_use_cuda_on_nvidia_Jetson/upload_5e83ad7dd0d9238cbc22e053c83c13b0.png",
     "image_processing/opencv/opencv_use_cuda_on_nvidia_Jetson/upload_078cf60529197f719758e4cd8acdaa00.png",
     "image_processing/opencv/media/YV12_2.png",
     "image_processing/opencv/media/YV12_1.png",
-    "image_processing/opencv/media/NV12_2.png",
-    "image_processing/opencv/media/NV12_1.png",
-    "image_processing/opencv/filters/filters.md",
-    "image_processing/opencv/filters/Fourier-based.md",
-    "image_processing/img_process_algorithm/warparrine/warpaffine.cpp",
-    "image_processing/img_process_algorithm/warparrine/warpafffine.md",
-    "image_processing/gstreamer/nvidia_plugins/nveglglessink.md",
-    "image_processing/gstreamer/nvidia_plugins/nv3dsink.md",
-    "image_processing/opencv/影像格式.md",
-    "image_processing/opencv/wrap_perspective.md",
-    "image_processing/opencv/warp_affine.md",
-    "image_processing/opencv/opencv_use_cuda_on_nvidia_Jetson.md",
-    "image_processing/opencv/opencv_use_cuda_on_nvidia_Jetson",
-    "image_processing/opencv/opencv_reference.md",
-    "image_processing/opencv/opencv_cv::Mat_init.md",
-    "image_processing/opencv/opencv_batch_images.md",
-    "image_processing/opencv/opencv-python in docker ImportError libGL.so.1 cannot open shared object file No such file or directory.md",
-    "image_processing/opencv/opencv build from source code.md",
-    "image_processing/opencv/media",
-    "image_processing/opencv/filters",
-    "image_processing/img_process_algorithm/warparrine",
-    "image_processing/gstreamer/nvidia_plugins",
-    "image_processing/gstreamer/normal_plugins",
-    "image_processing/opencv",
-    "image_processing/img_process_algorithm",
-    "trakcer/media/ByteTrack MOT pipeline diagram.png",
     "未命名.canvas",
-    "OS/DMA/dma-buf/media/DAM-buf由淺入深(一)--最簡單的dma-buf驅動程式_典型dma-buf應用框架圖.png",
     "未命名 2.canvas",
-    "未命名 1.canvas",
-    "OS/DMA/dma-buf/media/dma-buf 由浅入深(三)—— map attachment_dma-buf_ api_buffer鍊表.png",
-    "OS/DMA/dma-buf/media/DAM-buf由淺入深(一)--最簡單的dma-buf驅動程式_運行截圖.png"
+    "未命名 1.canvas"
   ]
 }
