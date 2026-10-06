@@ -1,6 +1,20 @@
 ---
-tags: [AI_system, deep-learning, cnn, pretraining]
-date: 2026-06-15
+title: ""
+source: "AI_system/好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆).md"
+author: ""
+published: ""
+created: 2026-06-15
+description: ""
+tags:
+  - AI_system
+  - deep-learning
+  - cnn
+  - pretraining
+process: true
+note-link: "[[AI_system/好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆).md]]"
+status: draft
+aliases: []
+related: []
 ---
 
 # 深度學習CNN預訓練模型框架總整理
@@ -63,7 +77,7 @@ mindmap
       圖像分割 encoder
       視覺問答
       醫療影像分析
-    效能優化
+    效能最佳化
       量化 (INT8/FP16)
       裁剪 (結構化/非結構化)
       知識蒸餾
@@ -176,7 +190,7 @@ def conv2d_simple(
 ) -> List[List[List[List[float]]]]:
     """
     簡單的 2D 卷積實作（僅用於教育目的）
-    實際應用應該使用優化的庫如 PyTorch 或 TensorFlow
+    實際應用應該使用最佳化的庫如 PyTorch 或 TensorFlow
     """
     # 獲取維度
     N = len(input)

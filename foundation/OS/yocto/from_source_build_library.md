@@ -11,7 +11,7 @@ cd perl-5.X.X
 -Dprefix=/path/to/install：指定安裝目錄（默認為 /usr/local）。
 可選配置：
 -Dusethreads：啟用多執行緒支援。
--Doptimize='-O2'：優化編譯速度。
+-Doptimize='-O2'：最佳化編譯速度。
 -DDEBUGGING：啟用調試模式（僅在需要時使用）。
 
 make -j$(nproc)

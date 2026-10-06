@@ -1,0 +1,309 @@
+.
+├── AI_system
+│   ├── Algorithm
+│   │   ├── Loss_function
+│   │   └── math
+│   ├── dataset_engine
+│   ├── deployment
+│   │   ├── ONNX
+│   │   ├── pytorch
+│   │   │   ├── function
+│   │   │   └── libtorch
+│   │   └── tensorflow
+│   │       └── tflite
+│   ├── model_architecture
+│   │   ├── CNN
+│   │   ├── Dlib
+│   │   ├── Mask-RCNN
+│   │   ├── object detection
+│   │   │   ├── yolov4
+│   │   │   └── YOLOV8
+│   │   ├── REID
+│   │   ├── Reinforcement learning
+│   │   └── YOLO
+│   │       └── media
+│   ├── multimodal
+│   │   ├── generate_image_model
+│   │   │   ├── diffusion model
+│   │   │   └── LoRA
+│   │   └── generate_language_model
+│   │       ├── LLM
+│   │       └── llma
+│   ├── optimization
+│   │   ├── pruning
+│   │   └── Quantization
+│   └── training
+│       └── NMS
+├── Clippings
+├── computer_vision
+│   ├── ByteTrack
+│   │   └── media
+│   ├── Deep_Sort
+│   │   └── media
+│   ├── Hungarian_Algorithm
+│   │   └── media
+│   ├── img_process_algorithm
+│   │   └── warparrine
+│   ├── Kalman_Filter
+│   ├── KLT_tracker
+│   ├── Mahalanobis_distance
+│   └── object_detection
+├── edge_AI
+│   ├── acceleration
+│   │   └── CUDA
+│   ├── architecture
+│   │   ├── cpu_gpu_coordination
+│   │   ├── pinned_memory
+│   │   └── ring_buffer
+│   ├── low_flops
+│   ├── memory
+│   ├── memory_optimization
+│   └── zero_copy
+├── embedded
+│   ├── generic_arm
+│   │   └── arm_compute_library
+│   ├── Jetson
+│   │   └── Sample_code
+│   │       ├── deepstream
+│   │       └── jetson_multimedia_api
+│   │           ├── common
+│   │           ├── jetson_video_decode
+│   │           └── jetson_video_encode
+│   ├── qualcomm
+│   └── RKNN
+├── experiments
+│   ├── benchmark
+│   ├── failed
+│   ├── profiling
+│   ├── temporary_tests
+│   └── weird_behavior
+├── failed_idea
+├── foundation
+│   ├── algorithm
+│   │   ├── data_structure
+│   │   │   └── Data compression
+│   │   ├── Gaussian_Distribution
+│   │   ├── images
+│   │   ├── Max-Heap
+│   │   ├── random_seed
+│   │   └── sort
+│   ├── build_system
+│   │   ├── build_root
+│   │   ├── cmake
+│   │   ├── cross_compile
+│   │   ├── GDB
+│   │   └── Make
+│   ├── hardware
+│   ├── mathematics
+│   ├── network
+│   │   ├── HTTP
+│   │   ├── MQTT
+│   │   │   └── media
+│   │   └── nginx
+│   ├── OS
+│   │   ├── archlinux
+│   │   ├── bootloader
+│   │   ├── CDCI
+│   │   ├── DEB
+│   │   ├── DMA
+│   │   │   └── dma-buf
+│   │   │       └── media
+│   │   ├── FTP
+│   │   ├── library
+│   │   ├── Linux_virtual_address
+│   │   │   └── media
+│   │   ├── memery
+│   │   ├── networkset
+│   │   ├── NFS
+│   │   ├── samba
+│   │   ├── socket
+│   │   ├── thread
+│   │   │   ├── futex
+│   │   │   ├── lockfree
+│   │   │   ├── pthread
+│   │   │   └── synchronization
+│   │   ├── tool
+│   │   ├── vim
+│   │   └── yocto
+│   ├── program
+│   │   └── Algorithm
+│   ├── programming_language
+│   │   ├── C_CPP
+│   │   │   ├── C
+│   │   │   ├── CPP
+│   │   │   │   ├── array
+│   │   │   │   ├── assert
+│   │   │   │   ├── Atomic
+│   │   │   │   ├── class
+│   │   │   │   ├── Command_line_arguments
+│   │   │   │   ├── compiler_optimization
+│   │   │   │   ├── Eigen
+│   │   │   │   ├── Error_stop
+│   │   │   │   ├── file_stream
+│   │   │   │   │   └── media
+│   │   │   │   ├── filesystem
+│   │   │   │   ├── inline
+│   │   │   │   ├── keyword
+│   │   │   │   │   └── static
+│   │   │   │   ├── media
+│   │   │   │   ├── namespeace
+│   │   │   │   ├── note
+│   │   │   │   ├── operator_overloading
+│   │   │   │   ├── POD
+│   │   │   │   ├── pointer
+│   │   │   │   │   └── opaque_handle
+│   │   │   │   ├── process
+│   │   │   │   ├── pybind11
+│   │   │   │   ├── ringbuffer
+│   │   │   │   ├── scope
+│   │   │   │   ├── STL
+│   │   │   │   │   └── media
+│   │   │   │   ├── string
+│   │   │   │   ├── struct
+│   │   │   │   ├── template
+│   │   │   │   ├── thread
+│   │   │   │   │   └── media
+│   │   │   │   └── unit_test
+│   │   │   ├── head_file
+│   │   │   │   └── unistd_h
+│   │   │   ├── Memory_Alignment
+│   │   │   ├── opaque_handle
+│   │   │   └── SIMD_Intrinsic
+│   │   ├── CSS
+│   │   ├── python_note
+│   │   └── RUST
+│   │       ├── Common Programming Concepts
+│   │       └── Getting sart
+│   ├── software
+│   │   ├── autodev
+│   │   ├── design_pattern
+│   │   ├── Kali_linux
+│   │   ├── linux
+│   │   └── vscode
+│   └── systems
+│       ├── async_pipeline
+│       │   └── ringbuffer
+│       ├── concurrency
+│       │   └── thread_pool
+│       ├── memory
+│       │   ├── memory_pool
+│       │   └── MIMO
+│       ├── observability
+│       │   ├── grafana
+│       │   └── prometheus
+│       └── runtime
+│           └── buffer_pool
+├── hacking_books
+├── infrastructure
+│   ├── Accelerator
+│   │   ├── memryX
+│   │   └── Rock chip
+│   ├── android
+│   ├── container
+│   │   ├── docker
+│   │   └── K8S
+│   │       ├── Container_Network_Interface
+│   │       │   └── img
+│   │       ├── Kubernetes
+│   │       │   └── image
+│   │       ├── Linunx_container
+│   │       │   └── image
+│   │       └── react
+│   │           └── image
+│   └── git_data
+├── LLM_Wiki
+│   ├── meta
+│   └── wiki
+│       ├── AI_system
+│       ├── computer_vision
+│       ├── edge_AI
+│       ├── embedded
+│       ├── experiments
+│       ├── failed_idea
+│       ├── foundation
+│       ├── infrastructure
+│       ├── project
+│       ├── research
+│       └── streaming_media
+├── math
+├── processor_architecture
+│   ├── CPU
+│   │   ├── arm
+│   │   │   └── NEON
+│   │   └── intel
+│   │       └── SIMD
+│   ├── FPGA
+│   ├── GPU
+│   │   └── nvidia
+│   │       ├── codec
+│   │       ├── CUDA
+│   │       │   ├── CUDA_C++
+│   │       │   │   ├── cuda_memery
+│   │       │   │   └── cuda_struct
+│   │       │   ├── Guide
+│   │       │   └── NVIDIA_Performance_Primitives(NPP)
+│   │       ├── CUDA_execution_model
+│   │       ├── DeepStream
+│   │       │   └── nvbufsurface
+│   │       ├── image_process
+│   │       ├── memory_hierarchy
+│   │       ├── Sample_code
+│   │       │   ├── CUDA
+│   │       │   ├── CUDNN
+│   │       │   └── TensorRT
+│   │       └── tensorRT
+│   └── MCU
+├── project
+│   ├── Hacker_note
+│   │   ├── Authorization
+│   │   └── BGP
+│   │       └── img
+│   └── UAV_project
+├── research
+│   └── MAVLink
+├── streaming_media
+│   ├── codec
+│   │   ├── byte_stream
+│   │   ├── NALU
+│   │   ├── Slice_level_decoding
+│   │   └── Video_Compression_and_Streaming
+│   │       ├── Bitrate_Control_RBR_CBR_VBR
+│   │       ├── Error_Resilience_and_Recovery
+│   │       └── Low_Latency_Encoding_Strategies
+│   ├── FFmpeg
+│   ├── gstreamer
+│   │   ├── normal_plugins
+│   │   └── nvidia_plugins
+│   ├── low_latency_pipeline
+│   ├── opencv
+│   │   ├── algorithm
+│   │   ├── filters
+│   │   ├── media
+│   │   └── opencv_use_cuda_on_nvidia_Jetson
+│   ├── SDL(Simple_DirectMedia_Layer)
+│   ├── V4L2
+│   └── Video_Information
+│       ├── Frame_Level_Metadata
+│       │   └── Frame_Info
+│       │       └── Frame_Type
+│       │           ├── Inter_Frame
+│       │           │   ├── B_frame
+│       │           │   └── P_Frame
+│       │           ├── Intra_Frame
+│       │           │   ├── IDR_Frame
+│       │           │   └── Non_IDR_I_Frame
+│       │           └── Special_Frame
+│       │               ├── AUD
+│       │               └── SEI
+│       ├── Metadata_Header_Info
+│       │   ├── Color_Metadata_Color_Space_Primaries_Transfer_Characteristics
+│       │   ├── Spatial_&_Geometry_Metadata
+│       │   └── Temporal_Metadata_FPS_Timebase_PTS_DTS
+│       └── Pixel_Payload_YUV_Data
+├── systems_intelligence
+│   └── event-based vision
+│       └── event_based_tracking
+└── wiki
+    └── AI_system
+
+307 directories

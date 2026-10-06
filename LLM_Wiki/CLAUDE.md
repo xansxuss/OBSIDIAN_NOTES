@@ -4,7 +4,7 @@
 
 ## 權限與資料來源
 你可以讀取並索引以下目錄，但**除非規則中明確允許搬移，否則不得修改、刪除或搬移其原始檔案**：
-- AI_system/, computer_vision/, edge_AI/, embedded/, experiments/, failed_idea/, foundation/, infrastructure/, project/, research/, streaming_media/, Clippings/
+- AI_system/, computer_vision/, edge_AI/, embedded/, experiments/, failed_idea/, foundation/, infrastructure/, streaming_media/, Clippings/
 
 > **唯讀例外：** 若某檔案完全沒有 YAML frontmatter，允許在檔案最上方**補上**最小化屬性結構（詳見下方「原始檔案完全沒有 frontmatter」規則），這屬於結構性新增、不涉及內文語意修改，因此不違反唯讀原則。除此之外，一律不得更動這些資料夾內的既有內容。
 > <!-- 【改動13】明訂唯讀原則的例外範圍：僅限補齊 frontmatter 結構，不得有其他形式的修改，並將此例外套用到所有來源資料夾（不限 Clippings/）。 -->
@@ -72,7 +72,7 @@
      - 範例 A：`zerocopy-pipeline-in-cuda`（4字）➡️ 保持 `zerocopy-pipeline-cuda`（3字，完美保留 CUDA）。
      - 範例 B：`torch-utils-cpp-extension`（4字）➡️ 保持 `torch-utils-cpp-ext`（4字）。
   2. **多技術並存時使用聯集縮寫：** 遇到像「從 AlexNet 到 EfficientNet」這種多個模型並列的長檔名，直接濃縮為技術大項。
-     - 範例：`good-pretraining-framework-alexnet-efficientnet` ➡️ 濃縮優化為 `cnn-pretraining-framework.md`，不需要硬把所有模型塞進檔名，模型名稱留給 YAML tags 與內文。
+     - 範例：`good-pretraining-framework-alexnet-efficientnet` ➡️ 濃縮最佳化為 `cnn-pretraining-framework.md`，不需要硬把所有模型塞進檔名，模型名稱留給 YAML tags 與內文。
      - **無論如何濃縮，最終檔名仍須符合 4 個單字以內原則，優先保留最上位的技術類別詞。**
        <!-- 【改動6】補上聯集縮寫後仍須符合字數上限的約束，避免規則互相矛盾。 -->
   3. **統一 Wiki 檔案路徑：** 寫入硬碟時必須嚴格寫入對應的子資料夾：`LLM_Wiki/wiki/<對應分類資料夾>/<全英文檔名>.md`。

@@ -37,7 +37,7 @@ int main() {
 
 ---
 
-## 2. 建立 CUDA 優化型的連續矩陣 (2D Flattened)
+## 2. 建立 CUDA 最佳化型的連續矩陣 (2D Flattened)
 
 由於 `cv::cuda::GpuMat` **不支援 3 維以上** 的結構，在處理 $N$ 張圖片時，業界標準做法是將 $N$ 張圖「垂直拼接」成一張長圖。這樣可以確保記憶體在 GPU 上是連續的（Contiguous），有利於一次性上傳與 Batch 運算。
 

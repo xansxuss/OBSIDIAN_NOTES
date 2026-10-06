@@ -119,7 +119,7 @@ g++ main.cpp -o my_game -lSDL2
 
 - **影像格式**：原生的 SDL2 只支援 BMP。若要讀取 PNG 或 JPG，需要額外的 `SDL_image` 擴充包。
     
-- **效能優化**：儘量減少 `SDL_RenderPresent` 的次數，通常維持在每秒 60 次 (VSync)。
+- **效能最佳化**：儘量減少 `SDL_RenderPresent` 的次數，通常維持在每秒 60 次 (VSync)。
     
 - **語言學習**：在寫 code 時，變數命名建議使用英文慣用語，例如 `surface` (表面)、`texture` (貼圖) 等，這對你學習英文術語很有幫助。
     

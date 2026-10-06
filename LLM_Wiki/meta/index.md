@@ -306,7 +306,7 @@
 - [[wiki/foundation/愚蠢的方法linux.md|愚蠢的方法Linux]]
 - [[wiki/foundation/操作系統思維.md|操作系統思維]]
 - [[wiki/foundation/教學資料.md|教學資料]]
-- [[wiki/foundation/為什麼判斷邊界if-else用clamp可以優化計算速度.md|為什麼判斷邊界if_else用clamp可以優化計算速度]]
+- [[wiki/foundation/為什麼判斷邊界if-else用clamp可以最佳化計算速度.md|為什麼判斷邊界if_else用clamp可以最佳化計算速度]]
 - [[wiki/foundation/為什麼加入強度簡化strength-reducing後的乘法加法組合反而跑得比較慢.md|為什麼加入強度簡化strength-reducing後的乘法加法組合反而跑得比較慢]]
 - [[wiki/foundation/米斯特白帽培訓講義.md|米斯特白帽培訓講義]]
 - [[wiki/foundation/自動化維運.md|自動化維運]]

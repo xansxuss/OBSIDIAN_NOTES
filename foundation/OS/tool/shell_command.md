@@ -11,7 +11,7 @@ bc：這個命令在我的系統中沒有找到，可能需要安裝。這是用
 
 split：這是一個很有用的命令，它可以將一個大文件分割成幾個小的部分。比如：split -b 2m largefile LF_ 會將 largefile 分割成帶有 LF 文件名前綴且大小為 2 MB 的小文件。
 
-nl：能夠顯示行號的命令。在閱讀腳本或代碼時，這個命令應該非常有用。如：nl wireless.h | head。 mkfifo：作者說這是他最喜歡的命令。該命令使得其他命令能夠通過一個命名的管道進行通信。嗯，聽起來有點空洞。舉例說明，先創建一個管道並寫入內容： mkfifo ive-been-piped ls -al split/* | head > ive-been-piped
+nl：能夠顯示行號的命令。在閱讀腳本或程式碼時，這個命令應該非常有用。如：nl wireless.h | head。 mkfifo：作者說這是他最喜歡的命令。該命令使得其他命令能夠通過一個命名的管道進行通信。嗯，聽起來有點空洞。舉例說明，先創建一個管道並寫入內容： mkfifo ive-been-piped ls -al split/* | head > ive-been-piped
 
 然後就可以讀取了：head ive-been-piped。
 

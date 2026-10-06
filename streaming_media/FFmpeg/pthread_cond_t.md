@@ -45,7 +45,7 @@ pthread_mutex_lock(&mutex);
 while (condition == false) {  // 必須用 while 而非 if
     pthread_cond_wait(&cond, &mutex);
 }
-// 執行臨界區代碼
+// 執行臨界區程式碼
 pthread_mutex_unlock(&mutex);
 ```
 

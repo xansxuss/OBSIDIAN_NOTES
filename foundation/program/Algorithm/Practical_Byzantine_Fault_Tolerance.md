@@ -153,9 +153,9 @@ PBFT 確保系統在不超過 f=⌊3n−1​⌋ 個節點出錯（或作惡）�
 
 ## 工程師視野：PBFT 在現代的演進
 
-在目前的區塊鏈工程中，純粹的 PBFT 較少見，多半是其變體或優化版：
+在目前的區塊鏈工程中，純粹的 PBFT 較少見，多半是其變體或最佳化版：
 
-- **Tendermint (Cosmos SDK):** 優化了 View Change 機制，並將三階段簡化。
+- **Tendermint (Cosmos SDK):** 最佳化了 View Change 機制，並將三階段簡化。
     
 - **HotStuff (Diem/Libra):** 透過線性通訊（引入 Collector 概念）將複雜度降至 O(n)，是目前共識演算法的前沿。
     

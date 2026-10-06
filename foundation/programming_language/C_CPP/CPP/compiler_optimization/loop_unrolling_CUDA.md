@@ -8,7 +8,7 @@
 這些條件判斷和跳轉在 GPU 上其實很浪費，因為 CUDA 的 warp 是 SIMT (Single Instruction Multiple Thread)，所有 thread 要一起執行相同指令，控制流太多就會拖慢。
 
 所以 loop unrolling 的目的就是：
-👉「把迴圈攤平成多段連續運算」，減少分支判斷與跳躍，讓 compiler 能更好優化、把 pipeline 塞滿。
+👉「把迴圈攤平成多段連續運算」，減少分支判斷與跳躍，讓 compiler 能更好最佳化、把 pipeline 塞滿。
 
 🧱 範例來看比較快
 🔸 原始版本：

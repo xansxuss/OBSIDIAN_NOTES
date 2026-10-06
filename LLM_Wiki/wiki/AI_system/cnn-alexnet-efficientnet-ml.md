@@ -1,9 +1,19 @@
 ---
+title: ""
+source: "AI_system/好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆).md"
+author: ""
+published: ""
+created: 2026-06-12
+description: ""
 tags:
   - AI_system
   - 好用的深度學習cnn預訓練模型框架總整理
-date: 2026-06-12
----
+process: true
+note-link: "[[AI_system/好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆).md]]"
+status: draft
+aliases: []
+related: []
+
 
 # 好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆)
 
@@ -24,7 +34,7 @@ date: 2026-06-12
         - 模型的前向計算過程。
         
         吞吐量與硬體開銷最佳化
-        - 性能優化與資源使用效率。
+        - 性能最佳化與資源使用效率。
 
 ## Mermaid 心智圖
     

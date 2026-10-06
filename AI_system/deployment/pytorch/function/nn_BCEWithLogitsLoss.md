@@ -21,7 +21,7 @@ $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 
 1. **數值穩定性（Numerical Stability）**：
     
-    當 Logits 值非常大或非常小時，先做 Sigmoid 再取 Log 容易產生浮點數溢位或下溢（Overflow/Underflow）。`BCEWithLogitsLoss` 利用了 **Log-Sum-Exp 技巧** 進行優化，計算過程更穩定。
+    當 Logits 值非常大或非常小時，先做 Sigmoid 再取 Log 容易產生浮點數溢位或下溢（Overflow/Underflow）。`BCEWithLogitsLoss` 利用了 **Log-Sum-Exp 技巧** 進行最佳化，計算過程更穩定。
     
 2. **效能**：
     

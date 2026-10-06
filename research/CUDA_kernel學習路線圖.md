@@ -24,7 +24,7 @@ CUDA kernel 的學習路線圖，由淺入深:
 - Global memory、Shared memory、Register、Constant memory、Texture memory 的差異與用途
 - Coalesced memory access(合併存取)的原理,這直接影響頻寬利用率
 - Shared memory 的 bank conflict 問題
-- 練習題:矩陣乘法(先寫 naive 版本,再用 shared memory 做 tiling 優化,比較效能差異)
+- 練習題:矩陣乘法(先寫 naive 版本,再用 shared memory 做 tiling 最佳化,比較效能差異)
 
 ### 階段三:同步與執行模型
 
@@ -33,7 +33,7 @@ CUDA kernel 的學習路線圖，由淺入深:
 - Occupancy(佔用率)的概念,如何用 register 數量與 shared memory 用量去估算
 - 用 Nsight Compute 或 `nvprof` / `nsys` 實際量測 kernel 效能瓶頸
 
-### 階段四:進階優化技巧
+### 階段四:進階最佳化技巧
 
 - Loop unrolling、指令層級平行化
 - Warp-level primitives(如 `__shfl_sync` 系列函式),減少對 shared memory 的依賴
@@ -43,9 +43,9 @@ CUDA kernel 的學習路線圖，由淺入深:
 
 ### 階段五:實戰專案
 
-建議挑幾個經典題目動手做,每個都能對應到不同優化技巧:
+建議挑幾個經典題目動手做,每個都能對應到不同最佳化技巧:
 
-- Reduction(歸約運算,學習 tree-based reduction 與 warp shuffle 優化)
+- Reduction(歸約運算,學習 tree-based reduction 與 warp shuffle 最佳化)
 - Histogram(學習 atomic 操作與 shared memory 私有化技巧)
 - Convolution / Stencil 計算(學習 shared memory tiling 與 halo 區處理)
 - 有餘力的話可以研究 cuBLAS 或 cuDNN 內部某些 kernel 的實作思路,理解業界做法
@@ -53,5 +53,5 @@ CUDA kernel 的學習路線圖，由淺入深:
 ### 學習資源建議
 
 - NVIDIA 官方的《CUDA C++ Programming Guide》一定要讀,是最權威的參考資料
-- Mark Harris 的 reduction 優化系列文章,是經典入門教材
+- Mark Harris 的 reduction 最佳化系列文章,是經典入門教材
 - 《Programming Massively Parallel Processors》這本書系統性很強,推薦當教科書讀

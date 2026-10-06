@@ -86,4 +86,4 @@ class DistributionFocalLoss(nn.Module):
 
 - **優勢**：在遮擋、邊界模糊或小目標的場景下，DFL 能大幅提升邊界框的定位精確度（Localization Accuracy），提供更合理的置信度資訊。
     
-- **搭配**：在實務上，DFL 通常與 **CIoU / GIoU 損失** 搭配使用，前者優化整體的重疊面積，後者（DFL）精細雕琢邊界的精準度。
+- **搭配**：在實務上，DFL 通常與 **CIoU / GIoU 損失** 搭配使用，前者最佳化整體的重疊面積，後者（DFL）精細雕琢邊界的精準度。

@@ -1,4 +1,4 @@
-在處理高維度、非凸（non-convex）的優化問題時，傳統的遺傳演算法（Genetic Algorithm, GA）很容易陷入**區域最佳解（Local Optimum）**，或者因為「超級個體」過早統治群體而導致**過早收斂（Premature Convergence）**。
+在處理高維度、非凸（non-convex）的最佳化問題時，傳統的遺傳演算法（Genetic Algorithm, GA）很容易陷入**區域最佳解（Local Optimum）**，或者因為「超級個體」過早統治群體而導致**過早收斂（Premature Convergence）**。
 
 **島嶼遺傳演算法（Island Genetic Algorithm, IGA）**，也稱為**粗粒度並列遺傳演算法（Coarse-grained Parallel GA）**，就是為了解決這些痛點而生的演進版本。
 
@@ -49,7 +49,7 @@ Island GA 最獨特的地方在於島嶼之間會定期交換資訊，這稱為*
 4. **重複與終止：** 繼續演化直到滿足終止條件。
 
 ---
-## 為什麼 IGA 對 AI 優化更有利？
+## 為什麼 IGA 對 AI 最佳化更有利？
 
 ### 1. 突破區域最佳解
 
@@ -65,7 +65,7 @@ Island GA 最獨特的地方在於島嶼之間會定期交換資訊，這稱為*
 
 ### 4. 避免過早收斂
 
-這對處理高維度、多峰值（Multi-modal）的優化問題非常有幫助。即使島嶼 A 陷入了局部最優，島嶼 B 可能在另一個山頭找到了更好的解，透過遷移，島嶼 A 有機會跳出陷阱。
+這對處理高維度、多峰值（Multi-modal）的最佳化問題非常有幫助。即使島嶼 A 陷入了局部最優，島嶼 B 可能在另一個山頭找到了更好的解，透過遷移，島嶼 A 有機會跳出陷阱。
 
 ### 5. 異質演化 (Heterogeneous GA)
 

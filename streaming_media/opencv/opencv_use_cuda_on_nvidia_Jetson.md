@@ -27,7 +27,7 @@ python-opencv
 這也是一個 Python 的 OpenCV 綁定庫，提供了對 OpenCV 功能的訪問。與 libopencv-python 不同，python-opencv 是通過使用 SWIG（Simplified Wrapper and Interface Generator）生成的綁定，將 C++ 的 OpenCV 功能封裝到 Python 中。它提供了與 libopencv-python 類似的功能，但可能有一些細微的差異和限制。您可以使用操作系統的軟件包管理器（如 apt）來安裝 python-opencv。
 nvidia-opencv
 
-為 NVIDIA 提供的針對自家 GPU 的優化版本。是基於原始的 OpenCV 庫進行了修改和優化，以充分利用 NVIDIA GPU 的計算能力和硬件加速功能，提高圖像處理和計算的性能，通常以庫文件或可執行文件的形式提供
+為 NVIDIA 提供的針對自家 GPU 的最佳化版本。是基於原始的 OpenCV 庫進行了修改和最佳化，以充分利用 NVIDIA GPU 的計算能力和硬件加速功能，提高圖像處理和計算的性能，通常以庫文件或可執行文件的形式提供
 在 Python 中無法直接導入和使用 nvidia-opencv
 進一步檢視apt show libopencv-python
 Package: libopencv-python

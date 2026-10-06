@@ -40,7 +40,7 @@ MQTT 協議中的 Last Will、Message Expiration 和 Retained Messages 機制詳
     - 系統清理：觸發系統執行清理或恢復操作。
     - 告警系統：集成到監控和告警系統中。
 
-   5. 代碼示例
+   5. 程式碼示例
 
     ``` python
     import paho.mqtt.client as mqtt
@@ -70,12 +70,12 @@ MQTT 協議中的 Last Will、Message Expiration 和 Retained Messages 機制詳
     client.loop_forever()
     ```
 
-2. Message Expiration（消息過期時間）
-   1. 定義與原理
+6. Message Expiration（消息過期時間）
+   7. 定義與原理
 
     Message Expiration 是 MQTT 5.0 引入的重要特性。它允許為消息設置一個存活時間（TTL - Time To Live），超過這個時間後，消息將被代理丟棄，不再投遞給任何訂閱者。
 
-   2. 關鍵特性
+   8. 關鍵特性
 
     - 設置方式：
         - 發布者設置：在 PUBLISH 報文中包含 Message Expiry Interval 屬性，單位為秒。
@@ -86,7 +86,7 @@ MQTT 協議中的 Last Will、Message Expiration 和 Retained Messages 機制詳
         - 存儲中過期：對於設置了 Retain 的消息，如果過期，代理必須移除該保留消息；對於持久會話中的離線消息，過期消息不會被存儲或在存儲期間被清理。
         - 靜默刪除：代理會盡快刪除過期消息以釋放資源，刪除過程是靜默的。
 
-   3. 工作流程示例
+   9. 工作流程示例
 
       1. 傳感器發布溫度消息，PUBLISH 報文包含：
         - Topic: /sensors/temperature
@@ -98,14 +98,14 @@ MQTT 協議中的 Last Will、Message Expiration 和 Retained Messages 機制詳
         - 如果消息是保留消息，則從保留消息存儲中刪除。
       4. 訂閱者不會收到過期的消息。
 
-   4. 應用場景
+   10. 應用場景
 
       - 防止數據過時：確保訂閱者不會收到已失效的狀態更新。
       - 控制資源佔用：避免代理存儲大量永遠不會被消費的陳舊消息。
       - 時效性信息：處理對時間極其敏感的信息，如實時價格、臨時狀態等。
       - 資源受限環境：特別適用於存儲和計算資源有限的物聯網設備。
 
-   5. 代碼示例
+   11. 程式碼示例
 
     ``` python
     import paho.mqtt.client as mqtt
@@ -136,12 +136,12 @@ MQTT 協議中的 Last Will、Message Expiration 和 Retained Messages 機制詳
     client.loop_forever()
     ```
 
-3. Retained Messages（保留消息）
-   1. 定義與原理
+12. Retained Messages（保留消息）
+   13. 定義與原理
 
     Retained Messages 是 MQTT 協議中的一個特性，允許代理保留最後一條消息，並在有新的訂閱者訂閱某個主題時立即發送這條保留消息。這樣，訂閱者可以在訂閱後立即獲得該主題的最新狀態，而無需等待新的消息發佈。
 
-   2. 關鍵特性
+   14. 關鍵特性
 
     - 存儲機制：代理會保留每個主題的最後一條消息。
     - 發送時機：當有新的訂閱者訂閱

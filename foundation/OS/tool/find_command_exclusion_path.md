@@ -29,6 +29,7 @@ find . -path "./vendor" -prune -o -name "*.py" -print
 
 ```Bash
 find . -type d \( -path "./vendor" -o -path "./.git" \) -prune -o -name "*.py" -print
+sudo find / -type d \( -path "/media" -o -path "/mnt" -o -path "/srv" \) -prune -o -name "dma-mapping.h" -print
 ```
 
 3. 只針對「資料夾名稱」排除（不看完整路徑）

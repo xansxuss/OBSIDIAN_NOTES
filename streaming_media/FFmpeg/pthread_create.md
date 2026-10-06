@@ -25,7 +25,7 @@ int pthread_create(pthread_t *thread,
 
 ### 3. 記憶體與架構視角
 
-當 `pthread_create()` 被呼叫時，作業系統的核心（Kernel）會分配獨立的 **Stack** 給該執行緒，但它會與主執行緒共享 **Heap**、**全域變數**、**檔案描述符（File Descriptors）** 以及 **代碼段（Code Segment）**。
+當 `pthread_create()` 被呼叫時，作業系統的核心（Kernel）會分配獨立的 **Stack** 給該執行緒，但它會與主執行緒共享 **Heap**、**全域變數**、**檔案描述符（File Descriptors）** 以及 **程式碼段（Code Segment）**。
 
 ---
 
@@ -69,4 +69,4 @@ int main() {
     
 2. **型別轉換**：在傳遞 `arg` 時，通常需要透過 `static_cast<void*>` 轉換。在讀取回傳值時，則需確保記憶體生命週期正確（避免回傳 Thread Local 的 Stack 變數位址）。
     
-3. **錯誤處理**：與許多 C 函式不同，`pthread` 系列函式**不會**設置 `errno`，而是直接回傳錯誤代碼（成功則回傳 0）。
+3. **錯誤處理**：與許多 C 函式不同，`pthread` 系列函式**不會**設置 `errno`，而是直接回傳錯誤程式碼（成功則回傳 0）。

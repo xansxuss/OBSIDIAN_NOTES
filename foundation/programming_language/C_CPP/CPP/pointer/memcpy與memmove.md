@@ -93,7 +93,7 @@ void *memmove(void *dst, const void *src, size_t size)
 
 ### 四、再進一步完善 —— 存取效率與記憶體對齊
 
-面試官如果更進一步，可能會考你記憶體存取效率的優化。
+面試官如果更進一步，可能會考你記憶體存取效率的最佳化。
 例如 Stack Overflow 上這個問題：
 [Implementing own memcpy (size in bytes?)](https://stackoverflow.com/questions/11876361/implementing-own-memcpy-size-in-bytes)
 

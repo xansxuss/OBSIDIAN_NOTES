@@ -1,5 +1,14 @@
 ### x86:
 
+``` bash
+wget https://www.ffmpeg.org/releases/ffmpeg-ffmpeg-6.0.1.tar.gz #https://www.ffmpeg.org/releases/ffmpeg-6.0.1.tar.gz
+tar -xvf ffmpeg-6.0.1.tar.gz
+cd ffmpeg-6.0.1
+./configure  --enable-shared --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-zlib --enable-nonfree --enable-cuda-nvcc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-nvenc --enable-libsvtav1 --enable-libaom
+make -j$(nproc)
+make install
+```
+
 ### arm
 Jetson orin series(3rd series)
 1. compile and install to system
@@ -32,6 +41,12 @@ make -j$(nproc)
 sudo make install
 # 用 nvmpi 硬體編碼 
 ffmpeg -f lavfi -i testsrc=duration=10:size=1920x1080:rate=30 -c:v h264_nvmpi -b:v 8M out_nvmpi.mp4
+# 支援清單指令
+# 列出所有解碼器（含軟體與硬體加速）
+ffmpeg -decoders
+ffmpeg -encoders | grep -E "nvenc|qsv|amf|videotoolbox|vaapi|v4l2|cuvid|nvmpi"
+ffmpeg -decoders | grep -E "nvdec|qsv|amf|videotoolbox|vaapi|v4l2|cuvid|nvmpi"
+
 ```
 
 2. package

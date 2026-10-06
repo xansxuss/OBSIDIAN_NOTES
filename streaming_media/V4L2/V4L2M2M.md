@@ -3,7 +3,7 @@
 核心概念
 
 - **雙重佇列 (Dual Queues)**：運作時包含一個「輸出佇列」（將原始/來源影格傳送到硬體）與一個「擷取佇列」（從硬體接收處理完成的/目的影格）。
-- **共享存取 (Shared Access)**：支援多個檔案控制代碼 (File Handles)，讓不同的應用程式能夠獨立共享同一個硬體裝置的上下文 (Context)。
+- **共享存取 (Shared Access)**：支援多個檔案控制程式碼 (File Handles)，讓不同的應用程式能夠獨立共享同一個硬體裝置的上下文 (Context)。
 - **裝置功能 (Capabilities)**：裝置會透過 `V4L2_CAP_VIDEO_M2M` 或 `V4L2_CAP_VIDEO_M2M_MPLANE` 旗標來識別自身支援 M2M 功能。
 
 驅動程式操作介面 (`v4l2_m2m_ops`)

@@ -1,6 +1,19 @@
 ---
-tags: [AI_system, education, resources]
-date: 2026-06-15
+title: ""
+source: "AI_system/Google 八堂免費的AI課程.md"
+author: ""
+published: ""
+created: 2026-06-15
+description: ""
+tags:
+  - AI_system
+  - education
+  - resources
+process: true
+note-link: "[[AI_system/Google 八堂免費的AI課程.md]]"
+status: draft
+aliases: []
+related: []
 ---
 
 # Google 免費 AI 課程資源
@@ -34,8 +47,8 @@ date: 2026-06-15
 - 生成模型：從潛在空間樣本生成資料的過程，包括逆向運算和解碼步驟
 
 ### 吞吐量與硬體開銷最佳化
-課程中可能涵蓋的優化知識包括：
-- 批次大小優化：根據顯存容量和收斂速度平衡訓練效率
+課程中可能涵蓋的最佳化知識包括：
+- 批次大小最佳化：根據顯存容量和收斂速度平衡訓練效率
 - 混合精度訓練：使用FP16減少運算量同時保持數值穩定性
 - 模型並行策略：數據並行vs模型並行，根據模型大小選擇適當策略
 - 梯度檢查點：用計算時間換取記憶體空間的技術
@@ -92,11 +105,11 @@ mindmap
       文件處理
         Popai.pro： 智能文件助手
       履歷製作
-        Kickresume.com： AI履歷優化
+        Kickresume.com： AI履歷最佳化
       網站建設
         Distribute.so： 內容導向網站平台
       社群廣告
-        Zocket.ai： AI優化廣告投放
+        Zocket.ai： AI最佳化廣告投放
       社群媒體
         Syllaby.io： 社群媒體內容規劃
 ```
@@ -167,7 +180,7 @@ def matmul_simple(
 ) -> List[List[float]]:
     """
     簡單的矩陣乘法實作（僅用於教育目的）
-    實際應用應該使用優化的庫如 NumPy 或 PyTorch
+    實際應用應該使用最佳化的庫如 NumPy 或 PyTorch
     """
     # 獲取矩陣維度
     m = len(A)

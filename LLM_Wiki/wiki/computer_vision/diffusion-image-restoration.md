@@ -1,6 +1,19 @@
 ---
-tags: [computer_vision, diffusion-models, image-restoration]
-date: 2026-06-15
+title: ""
+source: "AI_system/影像形變矯正AI model 參考資料.md"
+author: ""
+published: ""
+created: 2026-06-15
+description: ""
+tags:
+  - computer_vision
+  - diffusion-models
+  - image-restoration
+process: true
+note-link: "[[AI_system/影像形變矯正AI model 參考資料.md]]"
+status: draft
+aliases: []
+related: []
 ---
 
 # 擴散模型在影像修復與轉換中的應用
@@ -24,7 +37,7 @@ date: 2026-06-15
 - 使用混合精度訓練（FP16）減少記憶體佔用
 - 梯度檢查點（Gradient Checkpointing） trade-off 計算時間與記憶體
 - 模型並行策略：數據並行（Data Parallelism）或模型並行（Model Parallelism）
-- 靜態批次大小優化以充分利用GPU記憶體
+- 靜態批次大小最佳化以充分利用GPU記憶體
 - 使用xFormers或FlashAttention等高效注意力實作
 
 ## Mermaid 心智圖
@@ -46,7 +59,7 @@ mindmap
         5倍加速於競爭者
       人臉修復
         CodeFormer
-          代碼查詢Transformer
+          程式碼查詢Transformer
           全局組成建模
           可控特徵變換
         GFP-GAN

@@ -69,7 +69,7 @@ MYSDK_API int MySdk_Init(void);
 
 ```c
 typedef struct MySdkContext MySdkContext;   // 不透明結構（opaque struct）
-typedef void* MySdkHandle;                  // 控制代碼（handle）
+typedef void* MySdkHandle;                  // 控制程式碼（handle）
 typedef int (*MySdkCallback)(int code, void* userData); // 回呼函式指標
 ```
 
@@ -78,7 +78,7 @@ typedef int (*MySdkCallback)(int code, void* userData); // 回呼函式指標
 | 型態 | 特徵 | 意義 |
 |---|---|---|
 | 不透明結構 | 只有 `typedef struct Foo Foo;`，找不到成員定義 | 你不該去猜它的記憶體配置，只能透過 SDK 提供的函式操作它 |
-| Handle（控制代碼） | 通常是 `void*` 或整數型別 | 代表某個由 SDK 內部管理的資源，你只負責拿著它傳來傳去 |
+| Handle（控制程式碼） | 通常是 `void*` 或整數型別 | 代表某個由 SDK 內部管理的資源，你只負責拿著它傳來傳去 |
 | 回呼函式指標 | `typedef 回傳型別 (*名稱)(參數列);` | SDK 會在某個時機呼叫你註冊的函式，要注意執行緒是誰呼叫的 |
 
 如果是 C++ 風格的 SDK，還會看到：
@@ -170,7 +170,7 @@ private:
 /**
  * @brief 建立一個新的算繪內容（rendering context）。
  * @param config 初始化設定，呼叫端擁有其所有權。
- * @param[out] outContext 成功時會寫入新建立的內容控制代碼。
+ * @param[out] outContext 成功時會寫入新建立的內容控制程式碼。
  * @return MySdkResult_Ok 表示成功，其餘為錯誤碼。
  * @note 此函式非執行緒安全（thread-safe），需在主執行緒呼叫。
  */

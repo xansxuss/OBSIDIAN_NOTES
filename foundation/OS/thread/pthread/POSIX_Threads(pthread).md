@@ -32,7 +32,7 @@
 
 4. 當 Producer 放入資料後，呼叫 pthread_cond_signal 喚醒執行緒。
 
-## 3. 效能優化建議
+## 3. 效能最佳化建議
 身為 C/C++ 開發者，使用 pthread 時應注意以下硬體層級的問題：
 
 - Thread Affinity (執行緒親和性)：
@@ -98,7 +98,7 @@ int main() {
 
 #### 4. 進階：執行緒屬性與親和性 (Affinity)
 
-可能需要手動控制執行緒在 CPU 上的分布，以優化快取（Cache）表現。
+可能需要手動控制執行緒在 CPU 上的分布，以最佳化快取（Cache）表現。
 
 ```cpp
 cpu_set_t cpuset;

@@ -14,7 +14,7 @@
     
     - **不具備類型安全性：** 操作對象通常是 `void*`，它不關心資料的建構式（Constructor）或解構式（Destructor）。
         
-    - **效能極高：** 通常由編譯器或 libc 提供高度優化的組合語言實作（如使用 SIMD 指令集）。
+    - **效能極高：** 通常由編譯器或 libc 提供高度最佳化的組合語言實作（如使用 SIMD 指令集）。
         
     - **限制：** **僅適用於 POD（Plain Old Data）或 Trivial 類型**。如果對包含 `std::string` 或虛擬函數表的類別物件使用 `memset` 或 `memcpy`，會破壞物件結構，導致未定義行為（Undefined Behavior）。
         

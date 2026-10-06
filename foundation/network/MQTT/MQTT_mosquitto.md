@@ -1,3 +1,20 @@
+---
+title: ""
+source: ""
+author: ""
+published: ""
+created: 2026-08-27
+description: ""
+tags:
+  - foundation
+  - network
+  - MQTT
+process: true
+note-link: "[[LLM_Wiki/wiki/foundation/network/mqtt/mosquitto.md]]"
+status: draft
+aliases: []
+related: []
+---
 ## libmosquitto C API 精選整理
 
 > 以下內容根據官方手冊與 mosquitto.h／man 頁整理。參考源包括 “libmosquitto — MQTT version 5.0/3.1.1 client library”. [Eclipse Mosquitto](https://mosquitto.org/man/libmosquitto-3.html?utm_source=chatgpt.com)
@@ -26,7 +43,7 @@ void mosquitto_destroy(struct mosquitto *mosq);
 - `mosquitto_new(...)`：建立一個 mosquitto client 實例。參數：
     - `id`：client ID（字串）
     - `clean_session`：是否為乾淨會話
-    - `userdata`：你可傳入任意 void* 作為上下文指標，在 callback 中回傳。 [Stack Overflow](https://stackoverflow.com/questions/75006187/how-to-use-a-username-and-password-for-mosquitto-new-c-c-mqtt?utm_source=chatgpt.com)
+    - `userdata`：你可傳入任意 void* 作為上下文指標，在 callback 中回傳。 [Stack Overflow][(https://stackoverflow.com/questions/75006187/how-to-use-a-username-and-password-for-mosquitto-new-c-c-mqtt)](https://stackoverflow.com/questions/75006187/how-to-use-a-username-and-password-for-mosquitto-new-c-c-mqtt?utm_source=chatgpt.com))
 - `mosquitto_reinitialise(...)`：重新設定已存在 mosq 實例（少用）。
 - `mosquitto_destroy(...)`：銷毀 client 實例，釋放資源。
 - **提醒**：你若在多串流／多 thread 環境，需確保 destroy 前完成 loop ＆ disconnect 流程，以避免 race 或資源洩漏。

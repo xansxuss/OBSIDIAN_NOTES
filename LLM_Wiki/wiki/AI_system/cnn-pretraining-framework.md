@@ -1,11 +1,21 @@
 ---
+title: ""
+source: "AI_system/好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆).md"
+author: ""
+published: ""
+created: 2026-06-12
+description: ""
 tags:
   - AI_system
   - deep-learning
   - cnn
   - pretraining
-date: 2026-06-12
----
+process: true
+note-link: "[[AI_system/好用的深度學習CNN預訓練模型框架總整理: 從AlexNet到EfficientNet(ML 隨筆).md]]"
+status: draft
+aliases: []
+related: []
+
 
 # CNN 預訓練模型框架 (AlexNet 到 EfficientNet)
 
@@ -26,7 +36,7 @@ date: 2026-06-12
 ### 資料前處理與張量維度
 - 圖像標準化：將像素值縮放至 [0,1] 或 [-1,1] 範圍，並減去 ImageNet 平均值
 - 資料增強：隨機裁剪、翻轉、旋轉、顏色擾動等技術增加訓練資料多樣性
-- 張量維度：通常使用 NCHW (Batch, Channel, Height, Width) 或 NHWC 格式，依據硬體優化選擇
+- 張量維度：通常使用 NCHW (Batch, Channel, Height, Width) 或 NHWC 格式，依據硬體最佳化選擇
 - 批次大小：根據 GPU 顯存容量調整，影響收斂穩定性和訓練速度
 
 ### 前向傳播推理
@@ -56,11 +66,11 @@ mindmap
     sub2[實作要點]
       sub2a[資料前處理 標準化+增強]
       sub2b[前向傳播 Conv-Pool-Act-Norm]
-      sub2c[優化技術 量化+裁剪+蒸餾]
+      sub2c[最佳化技術 量化+裁剪+蒸餾]
     sub3[應用場景]
       sub3a[特徵提取 作為backbone使用]
       sub3b[遷移學習 冻結底層微調頂層]
-      sub3c[端邊部署 壓縮+加速優化]
+      sub3c[端邊部署 壓縮+加速最佳化]
 ```
 
 ## 參考文獻

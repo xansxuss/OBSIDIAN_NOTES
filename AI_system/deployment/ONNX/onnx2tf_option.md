@@ -39,7 +39,7 @@
 |`-nuo`, `--not_use_onnxsim`|禁用 `onnx-simplifier`。關閉此項極易導致轉換失敗。|-|
 
 ---
-### 4. 運算元優化與取代 (Operators Optimization)
+### 4. 運算元最佳化與取代 (Operators Optimization)
 
 |**參數 (長/短)**|**說明**|**備註**|
 |---|---|---|

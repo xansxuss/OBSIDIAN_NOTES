@@ -67,7 +67,7 @@ GStreamer 建立在 GLib/GObject 之上，底層邏輯離不開這套物件系�
 
 ### 3\. Buffer 與 Memory 管理底層
 
-- **GstBuffer 是 metadata 容器，不是資料本體** ：實際資料在 `GstMemory` ，一個 buffer 可以包多個 memory block（這對你做零拷貝優化很重要）。
+- **GstBuffer 是 metadata 容器，不是資料本體** ：實際資料在 `GstMemory` ，一個 buffer 可以包多個 memory block（這對你做零拷貝最佳化很重要）。
 - **GstBufferPool** ：了解為何要用 buffer pool 而不是每次都 malloc/free，這跟你偏好不用標準函式庫、自己管理記憶體的習慣其實邏輯相通，可以參考它的 allocator 介面設計。
 - **Caps negotiation 演算法** ：pad 之間怎麼透過 `gst_pad_query_caps` 、 `gst_caps_intersect` 找出雙方都能接受的格式，這段演算法在 `gstcaps.c` 跟 `gstpad.c` 都有，值得直接讀原始碼。
 

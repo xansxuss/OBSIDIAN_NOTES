@@ -84,7 +84,7 @@ cv::Mat M = (cv::Mat_<int>(2,2) << 1, 2, 3, 4);
 ```
 
 6. 記憶體布局 (Memory Layout)
-`cv::Mat` 的資料在記憶體中通常是連續存放的，但為了效能優化（記憶體對齊），每行末尾可能會有些許填充（Padding）。
+`cv::Mat` 的資料在記憶體中通常是連續存放的，但為了效能最佳化（記憶體對齊），每行末尾可能會有些許填充（Padding）。
 - 可以使用 `img.isContinuous()` 檢查。
 - 計算特定像素位址： $addr(M_{i,j}) = M.data + M.step[0] \cdot i + M.step[1] \cdot j$
 

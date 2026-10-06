@@ -65,7 +65,7 @@ B 的 pseudo label → 由 A_teacher 產生
 
 ## Loss 設計（簡化直覺版）
 
-MMT 裡面會一起優化：
+MMT 裡面會一起最佳化：
 
 - soft-label cross entropy（teacher logits 產生 soft targets）
     

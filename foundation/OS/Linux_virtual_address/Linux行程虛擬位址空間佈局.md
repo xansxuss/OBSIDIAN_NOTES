@@ -67,7 +67,7 @@ int main() {
     int b = 0;               // b 在 stack（區域變數）
     char *p2 = (char*)"123456"; // 字串常數 "123456" 在 code/.rodata 段，p2 在 stack
     static int c = 0;        // c 在 data 段（static）
-    const int d = 0;         // d 多半在 stack（編譯器可做優化）
+    const int d = 0;         // d 多半在 stack（編譯器可做最佳化）
     static const int e = 0;  // e 在 data/.rodata 段
 
     p1 = (char*)malloc(10);  // 分配的 10 bytes 在 heap（或 mmap，視實作與大小而定）

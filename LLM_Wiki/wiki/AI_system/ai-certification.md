@@ -1,7 +1,20 @@
 ---
-tags: [AI_system, certification, education]
-date: 2026-06-15
----
+title: ""
+source: "AI_system/AI認證.md"
+author: ""
+published: ""
+created: 2026-06-15
+description: ""
+tags:
+  - AI_system
+  - certification
+  - education
+process: true
+note-link: "[[AI_system/AI認證.md]]"
+status: draft
+aliases: []
+related: []
+
 
 # AI 認證資源與學習指南
 
@@ -38,7 +51,7 @@ AI認證課程中涵蓋的模型拓撲知識包括：
 ### 吞吐量與硬體開銷最佳化
 認證課程中的實務考量包括：
 - 雲端計算基礎：IaaS、PaaS和SaaS服務模式區別
-- 資源管理與成本優化：訂閱管理、資源標籤和使用監控
+- 資源管理與成本最佳化：訂閱管理、資源標籤和使用監控
 - 效能監控與調整：指標監視、自動彈性和效能基準測試
 - 安全與合規：身份驗證、存取控制和資料保護措施
 - 部署策略：藍綠部署、金絲雀發布和輪流更新策略
@@ -222,7 +235,7 @@ void manage_certification_info() {
     config.set("validity_years", "1"); // 更新有效期
     
     // 移除不再需要的資訊
-    config.remove("exam_code"); // 假設我們不要再保存考試代碼
+    config.remove("exam_code"); // 假設我們不要再保存考試程式碼
 }
 ```
 

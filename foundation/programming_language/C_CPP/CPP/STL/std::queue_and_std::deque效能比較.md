@@ -63,7 +63,7 @@ int main() {
 | `std::queue<int>` | 約 0.95s |
 | `std::deque<int>` | 約 0.93s |
 
-🧩 → 差距不到 2%，在編譯器優化下可忽略。
+🧩 → 差距不到 2%，在編譯器最佳化下可忽略。
 std::queue 幾乎等價於對 std::deque 加了一層 API 限制。
 
 💡 四、什麼時候該用哪個？
@@ -75,7 +75,7 @@ std::queue 幾乎等價於對 std::deque 加了一層 API 限制。
 | 想要最佳效能或控制容器特性                | ✅ `std::deque` | 無 adaptor 開銷，直接操作底層 |
 | 容器要可替換（例如要改成 `std::list`）    | ✅ `std::queue` | 可自由指定底層類型           |
 
-🧩 五、極端優化觀點
+🧩 五、極端最佳化觀點
 
 - std::queue 沒法在中間插入，也無法使用 reserve()。
 - std::deque 是 分段連續記憶體，在高壓並發環境中比 std::vector 穩定。

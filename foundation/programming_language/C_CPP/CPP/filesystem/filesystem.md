@@ -73,6 +73,6 @@ for (const auto& entry : fs::recursive_directory_iterator(img_dir)) {
 
 1. **效能考量**：`std::filesystem::path` 物件在頻繁建立時會有小量開銷，但在一般 I/O 密集型任務中幾乎可以忽略。
     
-2. **與舊代碼相容**：若要將 `path` 物件傳給只支援 `std::string` 或 `const char*` 的 API（如舊版的 `fopen`），請使用 `p.string().c_str()`。
+2. **與舊程式碼相容**：若要將 `path` 物件傳給只支援 `std::string` 或 `const char*` 的 API（如舊版的 `fopen`），請使用 `p.string().c_str()`。
     
 3. **例外處理**：檔案操作（如 `copy`, `remove`）建議放在 `try-catch` 區塊內，捕捉 `fs::filesystem_error`。

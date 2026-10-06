@@ -1,3 +1,20 @@
+---
+title: ""
+source: ""
+author: ""
+published: ""
+created: 2025-07-28
+description: ""
+tags:
+  - AI_system
+  - courses
+process: true
+note-link: "[[AI_system/Google 八堂免費的AI課程.md]]"
+status: draft
+aliases: []
+related: []
+
+
 Google 剛釋出了八堂免費的AI課程
 不要錯過囉～✍🏻
 
@@ -25,10 +42,12 @@ https://www.cloudskillsboost.google/course_templates/538
 8. 建立圖像標題模型： 
 https://www.cloudskillsboost.google/course_templates/542
 
+---
+
 2024 年你必須嘗試的 10 個超狂AI工具：
 
 1. 數據 ➝ Rows.com
-2. 語音 ➝ Lovo.ai
+2. 聲音 ➝ Lovo.ai
 3. 影片 ➝ Veed.io
 4. 圖片 ➝ Storia.ai
 5. 客服 ➝ Bland.ai

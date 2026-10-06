@@ -22,12 +22,12 @@
 #### 3. 邊緣保持濾波（Edge-preserving Filters）
 ##### 這類濾波是 AI / CV 領域的寵兒，可平滑區域又保留邊界。
 
-| 函式 | 原理 | 優點 | 缺點 | 適用場景 |
+| 函式 | 原理              | 優點 | 缺點 | 適用場景 |
 | ---- | ---- | ---- | ---- | ---- |
 | `cv::bilateralFilter()` | 根據空間距離 + 色差權重平均 | 邊緣保留效果極佳 | 極慢（O(n²)）| 人像平滑、HDR tone mapping |
-| `cv::guidedFilter()` (in ximgproc) | 使用導向影像進行線性模型平滑 | 快、保邊穩定 | 較不適合高雜訊 | 紋理平滑、去霧、深度圖濾波 |
-| `cv::ximgproc::jointBilateralFilter()` | Bilateral 的導向版 | 對異質資料（RGB + 深度）很強 | 較慢 | 彩色導向深度平滑 |
-| `cv::ximgproc::fastGlobalSmootherFilter()` | 全域優化式導向濾波 | 邊緣極穩、可控制 smoothness | 需調 λ、σ 參數 | 去雜訊、Matting、深度補全 |
+| `cv::guidedFilter()` (in ximgproc) | 使用導向影像進行線性模型平滑  | 快、保邊穩定 | 較不適合高雜訊 | 紋理平滑、去霧、深度圖濾波 |
+| `cv::ximgproc::jointBilateralFilter()` | Bilateral 的導向版  | 對異質資料（RGB + 深度）很強 | 較慢 | 彩色導向深度平滑 |
+| `cv::ximgproc::fastGlobalSmootherFilter()` | 全域最佳化式導向濾波      | 邊緣極穩、可控制 smoothness | 需調 λ、σ 參數 | 去雜訊、Matting、深度補全 |
 
 #### 4. 邊緣強化與銳化（Edge Enhancement / Sharpening）
 #### 這些濾波器用來「放大梯度」或「提升對比」。

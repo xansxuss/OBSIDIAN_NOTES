@@ -1,7 +1,21 @@
 ---
-tags: [AI_system, object-detection, pytorch, ssd]
-date: 2026-06-15
----
+title: ""
+source: "AI_system/github_pytorch_SSD_reference.md"
+author: ""
+published: ""
+created: 2026-06-15
+description: ""
+tags:
+  - AI_system
+  - object-detection
+  - pytorch
+  - ssd
+process: true
+note-link: "[[AI_system/github_pytorch_SSD_reference.md]]"
+status: draft
+aliases: []
+related: []
+
 
 # PyTorch SSD 目標檢測參考資料
 
@@ -38,10 +52,10 @@ SSD模型的推理過程包括：
 
 ### 吞吐量與硬體開銷最佳化
 提高SSD模型訓練和推理效率的策略：
-- 批次大小優化：根據顯存容量和收斂速度平衡訓練效率
+- 批次大小最佳化：根據顯存容量和收斂速度平衡訓練效率
 - 混合精度訓練：使用FP16減少運算量同時保持數值穩定性
 - 模型壓縮：權重量化、網絡裁剪和知識蒸餾減少模型大小
-- 推理加速：算子融合、內存布局優化和硬體專用指令利用
+- 推理加速：算子融合、內存布局最佳化和硬體專用指令利用
 - 多尺度訓練：隨機調整輸入圖像尺寸提高模型對不同尺度目標的鲁棒性
 
 ## Mermaid 心智圖
@@ -71,8 +85,8 @@ mindmap
         分類損失計算 (交叉熵)
         定位損失計算 (Smooth L1)
         困難樣本挖掘技術
-      優化設置
-        優化器選擇 (SGD, Adam等)
+      最佳化設置
+        最佳化器選擇 (SGD, Adam等)
         學習率調度策略
         批次大小和迭代次數設定
     推理流程
@@ -95,14 +109,14 @@ mindmap
         訓練與評估腳本
       sgrvinod/a-PyTorch-Tutorial-to-Object-Detection
         完整教學 tutorial
-        逐步說明與代碼註釋
+        逐步說明與程式碼註釋
         資料準備與模型訓練
       lufficc/SSD
         簡潔實作版本
         模組化程式碼結構
         易於修改與擴展
       qfgaohao/pytorch-ssd
-        性能優化版本
+        性能最佳化版本
         現代PyTorch特性使用
         快速原型開發支援
 ```

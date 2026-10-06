@@ -1,3 +1,21 @@
+---
+title: ""
+source: ""
+author: ""
+published: ""
+created: 2026-08-27
+description: ""
+tags:
+  - foundation
+  - network
+  - MQTT
+process: true
+note-link: "[[LLM_Wiki/wiki/foundation/network/mqtt/mosquittopp.md]]"
+status: draft
+aliases: []
+related: []
+---
+
 ## 📋 API 整理(精華版)
 
 | 函式 / 方法                                                                                             | 用途                   | 備註                               |
@@ -51,6 +69,7 @@ mosquittopp(const char *id = NULL, bool clean_session = true);
     - `clean_session`：是否為乾淨會話 (clean session)。
 - 解構函式：清理 client 物件。若使用 `loop_start()` 等背景 thread，要確保先呼叫 `disconnect()`／`loop_stop()`。
 - 注意：依你嵌入式環境，建議將 client 物件 RAII 化，避免資源洩漏。
+
 ## 4. 連線與斷線
 
 ``` cpp
@@ -67,6 +86,7 @@ int disconnect();
 - 提醒：在你的高效能系統中，連線／斷線不可阻塞主流程，建議非同步處理或回調機制。
 
 ## 5. 訂閱與取消訂閱
+
 ``` cpp
 int subscribe(int *mid, const char *sub, int qos = 0);
 int unsubscribe(int *mid, const char *sub);
@@ -131,17 +151,15 @@ int tls_psk_set(const char *psk, const char *identity, const char *ciphers = NUL
 - `int opts_set(int option, void *value)`：設定選項。
 - `bool is_session_present_on_connect()`：在 connect 完成時，檢查 session 是否已存在（適用 MQTT 3.1.1）。
 - 回調 函式（需由 子類覆寫）：
-
-
 ``` cpp
 void on_connect(int rc) override;
 void on_disconnect(int rc) override;
 void on_message(const struct mosquitto_message *message) override;
 void on_subscribe(int mid, int qos_count, const int *granted_qos) override;
-// … 等
 ```
+… 等
 
-這部分於 C++ 封裝中 virtual 定義。文件並無列出所有回調／參數說明。
+這部分於 C++ 封裝中 virtual 定義。文件並未列出所有回調／參數說明。
 
 ## ## 10. 錯誤碼／返回值
 
@@ -155,5 +173,4 @@ void on_subscribe(int mid, int qos_count, const int *granted_qos) override;
 
 - 此 C++ 封裝已被標示為 **DEPRECATED**，意味著未來可能不再更新，或對 MQTT v5 新特性支援有限。 [Eclipse Mosquitto](https://mosquitto.org/api/files/cpp/mosquittopp-h.html?utm_source=chatgpt.com)[# mosquittopp with MQTT v5 RPC Response Topics](https://github.com/eclipse-mosquitto/mosquitto/issues/2782?utm_source=chatgpt.com?utm_source=chatgpt.com)
 - 若你專案中需要 MQTT v5 完整功能（如 Response Topics、Properties 等），建議直接使用 C 庫 `mosquitto.h` + 自己封裝。
-- 在你高效能／嵌入式系統（如 GPU＋網路串流、零拷貝 DMA）中，應評估背景 thread 、事件迴圈 CPU 負載、記憶體動態配置等細節。
-
+- 在你高效能／嵌入式系統（如 GPU＋網路串流、零拷貝 DMA）中，應評估背景 thread 、事件迴圈 CPU 負載、記憶體動態配置等細節.

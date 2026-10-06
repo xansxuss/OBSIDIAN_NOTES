@@ -5,7 +5,7 @@
 
 你把 **classification head（分類頭）**  
 和 **regression head（框座標頭）**  
-**拆開**、**分離訓練**、**各自優化**。
+**拆開**、**分離訓練**、**各自最佳化**。
 
 分類要的是 feature 的語意；  
 回歸要的是 feature 的幾何；  

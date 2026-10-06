@@ -71,4 +71,4 @@ void consumer() {
 在舊的 code base 看過 `__sync` 系列的內建函式（例如 `__sync_synchronize` ）。
 
 - `__sync` 系列是舊版的 GCC 擴充（Legacy BLTINS），它強制使用最嚴格的 Full Barrier（等同於 `__ATOMIC_SEQ_CST` ），無法微調效能。
-- `__atomic` 系列是為了支援 C11 / C++11 的記憶體模型而開發的新標準， **強烈建議全面使用 `__atomic` 系列** 來取代舊的 `__sync` 系列，以獲得更好的效能優化空間。
+- `__atomic` 系列是為了支援 C11 / C++11 的記憶體模型而開發的新標準， **強烈建議全面使用 `__atomic` 系列** 來取代舊的 `__sync` 系列，以獲得更好的效能最佳化空間。

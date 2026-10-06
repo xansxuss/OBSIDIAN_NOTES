@@ -43,7 +43,7 @@ $$H_l = \text{ReLU}(b_l \cdot f_l(H_{l-1}) + H_{l-1})$$
 
 ## 工程實作參考 (PyTorch)
 
-在 `torchvision` 或 `timm` 庫中，這通常被稱為 `drop_path`。如果你在實作 Transformer block，代碼邏輯大約如下：
+在 `torchvision` 或 `timm` 庫中，這通常被稱為 `drop_path`。如果你在實作 Transformer block，程式碼邏輯大約如下：
 
 ```python
 import torch

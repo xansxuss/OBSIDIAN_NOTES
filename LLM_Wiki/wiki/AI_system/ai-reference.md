@@ -1,6 +1,19 @@
 ---
-tags: [AI_system, reference, resources]
-date: 2026-06-15
+title: ""
+source: "AI_system/AI_reference.md"
+author: ""
+published: ""
+created: 2026-06-15
+description: ""
+tags:
+  - AI_system
+  - reference
+  - resources
+process: true
+note-link: "[[AI_system/AI_reference.md]]"
+status: draft
+aliases: []
+related: []
 ---
 
 # AI 參考資料與學習筆記
@@ -8,14 +21,14 @@ date: 2026-06-15
 [[AI_system/AI_reference.md]]
 
 ## 核心概念
-本文件整理了AI領域的參考資料和學習筆記，特別聚焦於優化理論、機器學習和深度學習的基礎知識。內容包括來自CSDN博客專欄的分類連結，涵蓋優化理論學習、機器學習與深度學習筆記以及機器學習基礎概念。這些資料適合希望建堅實AI理論基礎的學習者和實踐者，提供了從基礎概念到進階主題的結構化學習路徑。
+本文件整理了AI領域的參考資料和學習筆記，特別聚焦於最佳化理論、機器學習和深度學習的基礎知識。內容包括來自CSDN博客專欄的分類連結，涵蓋最佳化理論學習、機器學習與深度學習筆記以及機器學習基礎概念。這些資料適合希望建堅實AI理論基礎的學習者和實踐者，提供了從基礎概念到進階主題的結構化學習路徑。
 
 ## 人工智慧系統領域專章
 ### 模型拓撲架構
 AI理論基礎中的模型拓撲架構知識包括：
 - 機器學習模型：線性回歸、決策樹、支持向量機、貝葉斯分類器等經典模型的數學基礎
 - 深度學習架構：前饋神經網路、卷積神經網路、循環神經網路和變換器等現代架構的結構特點
-- 優化理論：凸優化、拉格朗日乘子法、KKT條件等數學優化方法在機器學習中的應用
+- 最佳化理論：凸最佳化、拉格朗日乘子法、KKT條件等數學最佳化方法在機器學習中的應用
 - 模型表達能力：VC維度、 russischen 數和覆蓋數等理論工具衡量模型複雜度
 - 一般化誤差分析：偏差-方差分解、不等式界限和學習理論基礎
 
@@ -39,27 +52,27 @@ AI理論基礎中的模型拓撲架構知識包括：
 理論知識在實際系統中的應用包括：
 - 計算複雜度分析：時間複雜度和空間複雜度評估演算法效率
 - 記憶體訪問模式：區域性原理和Cache友善資料結構設計
-- 並行計算原則：Amdahl定義和Gustafson定律指導並行優化策略
+- 並行計算原則：Amdahl定義和Gustafson定律指導並行最佳化策略
 - 數值穩定性：避免數值計算中的災難性消失和保持計算精度
-- 實際部署考量：模型大小、推理延遲和能源消耗的平衡優化
+- 實際部署考量：模型大小、推理延遲和能源消耗的平衡最佳化
 
 ## Mermaid 心智圖
 ```mermaid
 mindmap
   root((AI參考資料))
-    優化理論
-      凸優化基礎
+    最佳化理論
+      凸最佳化基礎
         集合與函數性質
         最優條件KKT
         對偶性理論
-      數值優化方法
+      數值最佳化方法
         梯度下降及變體
         牛頓法與準牛頓法
         共軛梯度法
-      機器學習優化
+      機器學習最佳化
         損失函數選擇與性質
         正則化技術L1/L2
-        約束優化方法
+        約束最佳化方法
     機器學習基礎
       統計學習理論
         VC維度與鞏富不等式
@@ -83,7 +96,7 @@ mindmap
         卷積神經網路與變換器
         自編碼器與生成對抗網路
       訓練技術
-        優化器選擇與調度
+        最佳化器選擇與調度
         批次正規化與層正規化
         權重初始化與正則化
     應用領域
@@ -188,7 +201,7 @@ float calculate_mse_loss(
 ```
 
 ## Python 純標準庫範例
-以下示範使用純 Python 實作簡單的梯度下降優化器，僅使用標準庫而非 NumPy：
+以下示範使用純 Python 實作簡單的梯度下降最佳化器，僅使用標準庫而非 NumPy：
 
 ```python
 from typing import List, Tuple, Callable
@@ -203,7 +216,7 @@ def gradient_descent(
     tolerance: float = 1e-6
 ) -> Tuple[List[float], List[float]]:
     """
-    簡單的梯度下降優化器實作
+    簡單的梯度下降最佳化器實作
     
     參數:
         objective_func: 目標函數，輸入參數向量，返回(損失值, 梯度向量)
@@ -250,12 +263,12 @@ def quadratic_objective(params: List[float]) -> Tuple[float, List[float]]:
 
 # 使用範例
 if __name__ == "__main__":
-    # 從隨機初始點開始優化
+    # 從隨機初始點開始最佳化
     initial_params = [random.uniform(-5, 5)]  # 隨機初始值在[-5, 5]範圍
     
     print(f"初始參數: {initial_params[0]:.4f}")
     
-    # 執行梯度下降優化
+    # 執行梯度下降最佳化
     optimal_params, loss_history = gradient_descent(
         objective_func=quadratic_objective,
         initial_params=initial_params,
@@ -277,7 +290,7 @@ if __name__ == "__main__":
 ## 參考資料
 [[AI_system/AI_reference.md]]
 
-1. [優化理論學習](https://blog.csdn.net/xbinworld/category_9708808.html)
+1. [最佳化理論學習](https://blog.csdn.net/xbinworld/category_9708808.html)
 2. [機器學習與深度學習筆記](https://blog.csdn.net/xbinworld/category_9268229.html)
 3. [機器學習Machine Learning](https://blog.csdn.net/xbinworld/category_878118.html)
 

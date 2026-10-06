@@ -62,7 +62,7 @@ void build_heap(BBox* heap, int n) {
 }
 ```
 
-### 3. 結合 Soft NMS 的優化思路
+### 3. 結合 Soft NMS 的最佳化思路
 
 在 Soft NMS 中，因為後方候選框的分數會被調降，這會破壞 Heap 的特性。實務上有兩種做法：
 

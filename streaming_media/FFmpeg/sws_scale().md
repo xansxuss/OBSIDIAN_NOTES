@@ -55,7 +55,7 @@ sws_freeContext(sws_ctx);
 ```
 
 ## 開發建議
-- 效能優化 (Performance)：
+- 效能最佳化 (Performance)：
 	`sws_scale` 在 CPU 上執行，如果影像解析度極高（如 4K），可能會成為效能瓶頸。在 AI 應用中，通常會考慮使用硬體加速（如 NVIDIA 的 NPP 或 OpenCV 的 CUDA 模組）來取代。
 
 	如果需要重複轉換相同規格的影像，務必重複使用同一個 SwsContext，避免頻繁分配記憶體。
